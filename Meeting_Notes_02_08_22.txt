@@ -1,0 +1,26 @@
+
+Questions:
+-General ideas of the product (functionality, who will use it, what will it produce, etc…)
+-Databases to use for the survey
+-What kind of questions would you like to have in the survey
+-What kind of visualizations would you like for the responses
+
+
+Notes:
+-Project has shifted from perception of human vs machine generated art to now perception of art observed in-person and online
+-Visit exhibition then gauge feelings
+-Experience artwork digitally and in-person
+-What exactly is lost when viewing art online vs in-person
+-Meet again with Jodi Kovach to view artwork and configure questions to ask
+-Questions should regard materials, scale, surface qualities, and experience in gallery
+-10 questions on survey on the higher end or 5 questions on the lower end
+-Example question: How emotional is your response to this image (in-person vs digitally)
+-View works online then in-person (maybe two groups)
+-2 groups of survey takers: 
+-Group A who views the art online 1st then the same one in-person
+-Group B who views the art in-person 1st then same one online
+-Responses can be on a sliding scale
+-Permanent exhibition collection + Current exhibition collection
+-Web urls will guide the survey taker to the art piece on the gund gallery site
+-Purpose of survey to find what is gained or lost when the artwork is experienced in-person vs online
+-What functionality to add if any top of the user data collection
