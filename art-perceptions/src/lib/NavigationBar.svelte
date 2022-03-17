@@ -2,7 +2,7 @@
 </script>
 
 <div class="NavBar">
-    <h1>Art Perceptions</h1>
+    <h1><a href="/">Art Perceptions</a></h1>
     <div class="NavigationLinks">
         <a href="https://www.thegundgallery.org/">Home</a>
         <a href="https://www.thegundgallery.org/">Survey</a>
@@ -12,7 +12,7 @@
 
 <style>
     .NavBar {
-        background-color: #9575cd;
+        background-color: clear;
         margin: 0;
         padding: 0;
         width: 100%;
@@ -27,6 +27,17 @@
         padding: 0 4rem;
     }
 
+    .NavBar a {
+        padding: 0;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s ease 0s;
+    }
+
+    .NavBar a:hover {
+        color: #f4d3b8;
+    }
+
     .NavigationLinks {
         display: flex;
         margin: 0rem;
@@ -38,10 +49,11 @@
         padding: 0;
         margin: 0 1rem;
         text-decoration: none;
-        color: black;
+        color: white;
+        transition: all 0.2s ease 0s;
     }
 
     .NavigationLinks a:hover {
-        color: white;
+        color: #f4d3b8;
     }
 </style>

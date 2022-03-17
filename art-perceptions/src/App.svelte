@@ -1,9 +1,13 @@
 <script lang="ts">
+    import Content from "./lib/Content.svelte";
     import NavigationBar from "./lib/NavigationBar.svelte";
 </script>
 
 <main>
+    <!-- <div> -->
     <NavigationBar />
+    <Content />
+    <!-- </div> -->
 </main>
 
 <style>
