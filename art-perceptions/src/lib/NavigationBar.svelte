@@ -3,11 +3,11 @@
 
 <div class="NavBar">
     <h1><a href="/">Art Perceptions</a></h1>
-    <div class="NavigationLinks">
-        <a href="https://www.thegundgallery.org/">Home</a>
-        <a href="https://www.thegundgallery.org/">Survey</a>
+    <nav class="NavigationLinks">
+        <a href="/">Home</a>
+        <a href="/survey">Survey</a>
         <a href="https://www.thegundgallery.org/">Results</a>
-    </div>
+    </nav>
 </div>
 
 <style>
