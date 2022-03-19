@@ -1,4 +1,5 @@
 <script lang="ts">
+    import ArtCarousel from "$lib/ArtCarousel.svelte";
     import NavigationBar from "../lib/NavigationBar.svelte";
 </script>
 
@@ -16,6 +17,8 @@
                     Explore the differences and add your own perceptions of art.
                 </h4>
             </div>
+
+            <ArtCarousel />
         </div>
     </body>
 </main>
@@ -39,7 +42,10 @@
         overflow: hidden;
         padding-top: 5rem;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
         background-image: url("./images/background.jpeg");
         background-position: center;
         background-repeat: no-repeat;
@@ -64,5 +70,4 @@
         padding: 0;
         font-weight: 500;
     }
-
 </style>
