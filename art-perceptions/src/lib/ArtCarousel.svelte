@@ -1,44 +1,78 @@
+<script context="module" lang="ts">
+    export async function load({ fetch }) {
+        const response = await fetch(
+            "https://localhost:3000/api/gallery-results.json"
+        );
+        const galleryResultsJSON = await response.json();
+        return {
+            props: { galleryResultsJSON },
+        };
+    }
+</script>
+
 <script lang="ts">
     import ArtCard from "./ArtCard.svelte";
-    import { slide, fly } from "svelte/transition";
+    import { fly } from "svelte/transition";
     import { flip } from "svelte/animate";
-import { each } from "svelte/internal";
-    // let index: number = 0;
-    let list = [
-        "./images/ab0.jpeg",
-        "./images/ab1.jpeg",
-        "./images/ab2.jpeg",
-        "./images/ab3.jpeg",
-        "./images/ab4.jpeg",
-    ];
+    import { onMount } from "svelte";
+
+    var galleryResults = [];
+
+    async function fetchGalleryResults() {
+        const response = await fetch(
+            "http://localhost:3000/api/gallery-results.json"
+        );
+        const json = await response.json();
+        galleryResults = json["objects"];
+        shuffle(galleryResults);
+    }
+
+    onMount(async () => {
+        fetchGalleryResults();
+    });
+
+    function shuffle(array) {
+        array.sort(() => Math.random() - 0.5);
+    }
 
     const decrementIndex = () => {
-        // list.unshift(list.pop());
-        list.push(list.shift());
-        list = list;
+        // galleryResults.unshift(galleryResults.pop());
+        galleryResults.push(galleryResults.shift());
+        galleryResults = galleryResults;
     };
 
     const incrementIndex = () => {
-        // list.push(list.shift());
-        list.unshift(list.pop());
-        list = list;
+        // galleryResults.push(galleryResults.shift());
+        galleryResults.unshift(galleryResults.pop());
+        galleryResults = galleryResults;
     };
 </script>
 
 <div class="art-carousel">
-    <div class="chevron left" on:click={decrementIndex}><div /></div>
-        {#each list.slice(0, 3) as imageURL, index (imageURL)}
-            <div animate:flip="{{duration: 200}}" class="animation-wrap">
-                <div in:fly="{{x: index === 0 ? -200 : 200, y: -50, duration: 200}}" class="transition-wrap">
+    {#await fetchGalleryResults()}
+        <h2>Loading...</h2>
+    {:then}
+        <div class="chevron left" on:click={decrementIndex}><div /></div>
+        {#each galleryResults.slice(0, 3) as imageObject, index (imageObject)}
+            <div animate:flip={{ duration: 200 }} class="animation-wrap">
+                <div
+                    in:fly={{
+                        x: index === 0 ? -200 : 200,
+                        y: -50,
+                        duration: 200,
+                    }}
+                    class="transition-wrap"
+                >
                     <ArtCard
-                    {index}
-                    isPrimary={index == 1 ? true : false}
-                    {imageURL}
-                />
+                        {index}
+                        isPrimary={index == 1 ? true : false}
+                        imageURL={imageObject["Images"][0]["PreviewPath"]}
+                    />
                 </div>
             </div>
         {/each}
-    <div class="chevron right" on:click={incrementIndex}><div /></div>
+        <div class="chevron right" on:click={incrementIndex}><div /></div>
+    {/await}
 </div>
 
 <style>
@@ -84,5 +118,4 @@ import { each } from "svelte/internal";
     .chevron.left {
         transform: rotate(-90deg);
     }
-
 </style>

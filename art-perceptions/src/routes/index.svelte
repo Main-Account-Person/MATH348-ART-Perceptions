@@ -1,6 +1,6 @@
 <script lang="ts">
     import ArtCarousel from "$lib/ArtCarousel.svelte";
-    import NavigationBar from "../lib/NavigationBar.svelte";
+    import NavigationBar from "$lib/NavigationBar.svelte";
 </script>
 
 <svelte:head>
@@ -14,8 +14,9 @@
             <div class="intro-text">
                 <h1>AI vs. Human Art</h1>
                 <h4>
-                    Explore the differences and add your own perceptions of art.
+                    Explore the differences between AI and human-generated art.
                 </h4>
+                <h4>Add your own perceptions of art to the database.</h4>
             </div>
 
             <ArtCarousel />
@@ -46,7 +47,7 @@
         justify-content: flex-start;
         align-content: center;
         align-items: center;
-        background-image: url("./images/background.jpeg");
+        background-image: url("../../../images/background.jpeg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

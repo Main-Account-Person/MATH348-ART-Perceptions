@@ -1,7 +1,7 @@
 <script lang="ts">
     export let index: number;
     export let isPrimary: boolean;
-    export let imageURL: string;
+    export var imageURL: string;
 </script>
 
 <div
@@ -9,9 +9,12 @@
         ? 'leading'
         : ''} {index === 2 ? 'trailing' : ''}"
 >
-    <img src={imageURL} alt="{index} Image" />
+    <img src={imageURL.replace(/jpg/g, "png")} alt="{index} Image" />
     <h3>Title</h3>
     <h4>Artist</h4>
+    <h6>Survey</h6>
+    <h6>Results</h6>
+    <h6>View on Gund Gallery</h6>
 </div>
 
 <style>
@@ -32,6 +35,7 @@
 
     .art-card img {
         border-radius: 20px;
+        max-height: 15rem;
     }
 
     .art-card.bg {
@@ -58,5 +62,9 @@
 
     .art-card.trailing {
         z-index: 0;
+    }
+
+    .art-card h6 {
+        margin: 0;
     }
 </style>
