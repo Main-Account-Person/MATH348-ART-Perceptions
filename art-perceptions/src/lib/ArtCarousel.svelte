@@ -1,15 +1,3 @@
-<script context="module" lang="ts">
-    export async function load({ fetch }) {
-        const response = await fetch(
-            "https://localhost:3000/api/gallery-results.json"
-        );
-        const galleryResultsJSON = await response.json();
-        return {
-            props: { galleryResultsJSON },
-        };
-    }
-</script>
-
 <script lang="ts">
     import ArtCard from "./ArtCard.svelte";
     import { fly } from "svelte/transition";
@@ -19,17 +7,19 @@
     var galleryResults = [];
 
     async function fetchGalleryResults() {
+        // console.log("Fetching...")
         const response = await fetch(
-            "http://localhost:3000/api/gallery-results.json"
+            process.env.NODE_ENV == "development" ? "http://localhost:3000/api/gallery-results.json" : "https://art-perceptions.vercel.app/api/gallery-results.json"
         );
         const json = await response.json();
         galleryResults = json["objects"];
         shuffle(galleryResults);
+        // console.log("DONE")
     }
 
-    onMount(async () => {
-        fetchGalleryResults();
-    });
+    // onMount(async () => {
+    //     fetchGalleryResults();
+    // });
 
     function shuffle(array) {
         array.sort(() => Math.random() - 0.5);
