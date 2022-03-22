@@ -1,7 +1,8 @@
 <script lang="ts">
+    import type { GalleryArt } from "./models/GalleryArtModel";
     export let index: number;
     export let isPrimary: boolean;
-    export var imageURL: string;
+    export let galleryObject: GalleryArt;
 </script>
 
 <div
@@ -9,12 +10,21 @@
         ? 'leading'
         : ''} {index === 2 ? 'trailing' : ''}"
 >
-    <img src={imageURL.replace(/jpg/g, "png")} alt="{index} Image" />
-    <h3>Title</h3>
-    <h4>Artist</h4>
-    <h6>Survey</h6>
-    <h6>Results</h6>
-    <h6>View on Gund Gallery</h6>
+    <img
+        src={galleryObject.Images[0].PreviewPath.replace(/jpg/, "png")}
+        alt="{index} Image"
+    />
+    <div class="info">
+        <span>
+            <h4>{galleryObject.Disp_Title}</h4>
+            <h5>{galleryObject.Disp_Maker_1}</h5>
+        </span>
+
+        <span class="links">
+            <a href={galleryObject.URL} target="_blank">Gund Gallery</a>
+            <a href="/survey">Survey</a>
+        </span>
+    </div>
 </div>
 
 <style>
@@ -29,13 +39,60 @@
         z-index: 1;
         display: flex;
         flex-direction: column;
-        /* position: absolute; */
         padding: 1rem;
     }
 
     .art-card img {
         border-radius: 20px;
-        max-height: 15rem;
+        min-height: 15rem;
+        object-fit: cover;
+    }
+
+    .art-card .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .art-card .info * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .art-card .info h4 {
+        padding-top: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .art-card .info h5 {
+        padding-top: 0.5rem;
+        font-weight: normal;
+    }
+
+    .art-card .info .links {
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .art-card .info a {
+        width: 35%;
+        background-color: #f4d3b8;
+        color: #3e01b4;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        transition: 0.2s ease;
+    }
+
+    .art-card .info a:hover {
+        background-color: #3e01b4;
+        color: #f4d3b8;
+        cursor: pointer;
     }
 
     .art-card.bg {
@@ -62,9 +119,5 @@
 
     .art-card.trailing {
         z-index: 0;
-    }
-
-    .art-card h6 {
-        margin: 0;
     }
 </style>
