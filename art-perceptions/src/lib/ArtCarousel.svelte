@@ -3,13 +3,16 @@
     import { fly } from "svelte/transition";
     import { flip } from "svelte/animate";
     import { onMount } from "svelte";
+    import type { GalleryArt } from "./models/GalleryArtModel";
 
-    var galleryResults = [];
+    var galleryResults: Array<GalleryArt> = [];
 
     async function fetchGalleryResults() {
         // console.log("Fetching...")
         const response = await fetch(
-            process.env.NODE_ENV == "development" ? "http://localhost:3000/api/gallery-results.json" : "https://art-perceptions.vercel.app/api/gallery-results.json"
+            process.env.NODE_ENV == "development"
+                ? "http://localhost:3000/api/gallery-results.json"
+                : "https://art-perceptions.vercel.app/api/gallery-results.json"
         );
         const json = await response.json();
         galleryResults = json["objects"];
@@ -56,7 +59,7 @@
                     <ArtCard
                         {index}
                         isPrimary={index == 1 ? true : false}
-                        imageURL={imageObject["Images"][0]["PreviewPath"]}
+                        galleryObject={imageObject}
                     />
                 </div>
             </div>
