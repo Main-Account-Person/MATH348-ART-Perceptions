@@ -18,45 +18,8 @@
             Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     }
 
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        margin-top: -5rem;
-    }
-
-    .section-one {
-        max-width: 100%;
-        height: 1080px;
-        overflow: hidden;
-        padding-top: 5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: center;
-        align-items: center;
-        background-image: url("../../../images/background.jpeg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .intro-text {
-        max-width: 30%;
-        min-width: 20rem;
-        height: auto;
-        color: white;
-    }
-
-    .intro-text h1 {
-        font-size: 4rem;
-        margin: 0;
-        padding-top: 12rem;
-    }
-
-    .intro-text h4 {
-        margin: 0;
-        padding: 0;
-        font-weight: 500;
+    * {
+        /* Offset Parent Margin */
+        /* margin: -8px; */
     }
 </style>
