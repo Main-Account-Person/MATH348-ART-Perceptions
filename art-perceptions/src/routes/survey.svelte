@@ -9,7 +9,7 @@
 
 <main>
     <NavigationBar />
-    <h1>Survey</h1>
+    <h1>Survey Title Test</h1>
 </main>
 
 <style>
