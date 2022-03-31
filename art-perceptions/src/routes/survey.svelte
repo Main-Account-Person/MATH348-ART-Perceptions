@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-    <title>Survey</title>
+    <title>Survey Title Test</title>
 </svelte:head>
 
 <main>
