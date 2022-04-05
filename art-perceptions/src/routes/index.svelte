@@ -21,6 +21,13 @@
 
             <ArtCarousel />
 
+            <div class="gund-gallery">
+                <h1>At the Gund Gallery?</h1>
+                <h4>
+                    Search for a specific piece of art and add your perception
+                    to the database!
+                </h4>
+            </div>
             <!-- At the Gund Gallery?  Search for a specific piece and input your perception. -->
             <!-- Search Bar -->
             <!-- Search Results -->
@@ -45,7 +52,7 @@
         max-width: 100%;
         height: 1080px;
         overflow: hidden;
-        padding-top: 5rem;
+        padding-top: 4rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -71,6 +78,22 @@
     }
 
     .intro-text h4 {
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .gund-gallery {
+        margin-top: 7rem;
+        color: white;
+    }
+
+    .gund-gallery h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    .gund-gallery h4 {
         margin: 0;
         padding: 0;
         font-weight: 500;
