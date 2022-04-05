@@ -58,10 +58,9 @@
         },
     ];
 
-    // const maxHeight =
-    // window.document.getElementById("form-wrapper").scrollHeight -
-    // window.innerHeight;
-    // const form = window.document.getElementById("form-wrapper");
+    var emailResponse: string;
+    var virtualResponse: boolean;
+
     function handleScroll() {
         const form = window.document.getElementById("form-wrapper");
         const maxHeight = form.scrollHeight - form.clientHeight;
@@ -112,8 +111,18 @@
                     <input type="email" placeholder="Email" />
                 </span>
 
-                <h4>Please answer the following questions.</h4>
-                <h4>On a scale from 1 - 10...</h4>
+                <!-- <span class="question"> -->
+                <label><b>Are you in-person at the Gund Gallery?</b></label>
+                <span style="margin-bottom: 1rem;">
+                    <label style="min-width: 3ch;">Yes</label>
+                    <input type="radio" name="inperson" />
+                    <label style="min-width: 3ch;">No </label>
+                    <input type="radio" name="inperson" />
+                </span>
+                <!-- </span> -->
+
+                <!-- <h3>Please answer the following questions.</h3> -->
+                <!-- <h3>On a scale from 1 - 10...</h3> -->
 
                 {#each surveyQuestions as question}
                     <div class="survey-question">
@@ -170,19 +179,19 @@
         padding: 0 4rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: 5rem;
         padding-bottom: 2rem;
     }
 
     .ArtInfoCard {
-        /* width: 100%; */
+        /* width: 50%; */
         max-width: 50%;
         background-color: rgba(248, 249, 249, 0.8);
         padding: 2rem;
-        margin-right: 2rem;
+        /* margin-right: 1rem; */
         border-radius: 20px;
-        box-shadow: 0px 2px 15px rgb(248, 249, 249);
+        box-shadow: 0px 2px 10px rgb(248, 249, 249);
         /* opacity: 80%; */
     }
 
@@ -197,11 +206,11 @@
     }
 
     .questions {
-        /* min-width: 50%; */
+        /* min-width: 40%; */
         background-color: rgba(248, 249, 249, 0.85);
-        margin-left: 2rem;
+        /* margin-left: 1rem; */
         border-radius: 20px;
-        box-shadow: 0px 2px 15px rgb(248, 249, 249);
+        box-shadow: 0px 2px 10px rgb(248, 249, 249);
         /* opacity: 80%; */
     }
 
@@ -232,7 +241,7 @@
         display: none;
     }
 
-    .form-wrapper h4 {
+    .form-wrapper h3 {
         margin: 0.1rem 0;
     }
 
