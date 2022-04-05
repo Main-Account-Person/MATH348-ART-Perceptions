@@ -10,7 +10,8 @@
             const response = await fetch(
                 process.env.NODE_ENV == "development"
                     ? "http://localhost:3000/api/gallery-results.json"
-                    : "https://art-perceptions.vercel.app/api/gallery-results.json"
+                    : // : "https://art-perceptions.vercel.app/api/gallery-results.json"
+                      "https://math-348-art-perceptions.vercel.app/api/gallery-results.json"
             );
             const json = await response.json();
             $galleryResults = json["objects"];
@@ -106,3 +107,4 @@
         transform: rotate(-90deg);
     }
 </style>
+
