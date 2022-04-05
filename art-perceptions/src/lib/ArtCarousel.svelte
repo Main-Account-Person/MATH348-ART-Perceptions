@@ -2,42 +2,36 @@
     import ArtCard from "./ArtCard.svelte";
     import { fly } from "svelte/transition";
     import { flip } from "svelte/animate";
-    import { onMount } from "svelte";
     import type { GalleryArt } from "./models/GalleryArtModel";
-
-    var galleryResults: Array<GalleryArt> = [];
+    import { galleryResults } from "../stores";
 
     async function fetchGalleryResults() {
-        // console.log("Fetching...")
-        const response = await fetch(
-            process.env.NODE_ENV == "development"
-                ? "http://localhost:3000/api/gallery-results.json"
-                : "https://art-perceptions.vercel.app/api/gallery-results.json"
-        );
-        const json = await response.json();
-        galleryResults = json["objects"];
-        shuffle(galleryResults);
-        // console.log("DONE")
+        if ($galleryResults.length === 0) {
+            const response = await fetch(
+                process.env.NODE_ENV == "development"
+                    ? "http://localhost:3000/api/gallery-results.json"
+                    : "https://art-perceptions.vercel.app/api/gallery-results.json"
+            );
+            const json = await response.json();
+            $galleryResults = json["objects"];
+            shuffle($galleryResults);
+        }
     }
 
-    // onMount(async () => {
-    //     fetchGalleryResults();
-    // });
-
-    function shuffle(array) {
+    function shuffle(array: GalleryArt[]) {
         array.sort(() => Math.random() - 0.5);
     }
 
     const decrementIndex = () => {
-        // galleryResults.unshift(galleryResults.pop());
-        galleryResults.push(galleryResults.shift());
-        galleryResults = galleryResults;
+        $galleryResults.unshift($galleryResults.pop());
+        // $galleryResults.push($galleryResults.shift());
+        $galleryResults = $galleryResults;
     };
 
     const incrementIndex = () => {
-        // galleryResults.push(galleryResults.shift());
-        galleryResults.unshift(galleryResults.pop());
-        galleryResults = galleryResults;
+        $galleryResults.push($galleryResults.shift());
+        // $galleryResults.unshift($galleryResults.pop());
+        $galleryResults = $galleryResults;
     };
 </script>
 
@@ -46,7 +40,7 @@
         <h2>Loading...</h2>
     {:then}
         <div class="chevron left" on:click={decrementIndex}><div /></div>
-        {#each galleryResults.slice(0, 3) as imageObject, index (imageObject)}
+        {#each $galleryResults.slice(0, 3) as imageObject, index (imageObject)}
             <div animate:flip={{ duration: 200 }} class="animation-wrap">
                 <div
                     in:fly={{

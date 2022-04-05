@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <div class="NavBar">
     <h1><a href="/">Art Perceptions</a></h1>
     <nav class="NavigationLinks">
