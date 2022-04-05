@@ -22,7 +22,7 @@
 
         <span class="links">
             <a href={galleryObject.URL} target="_blank">Gund Gallery</a>
-            <a href="/survey/{galleryObject.embark_ID}">Survey</a>
+            <a href="/survey">Survey</a>
         </span>
     </div>
 </div>
