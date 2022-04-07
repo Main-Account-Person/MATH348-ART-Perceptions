@@ -4,18 +4,22 @@
   import { flip } from "svelte/animate";
   import type { GalleryArt } from "./models/GalleryArtModel";
   import { galleryResults } from "../stores";
+  import artworkJSON from "../routes/api/artwork.json"
+  // import * as artworkJSON from "../routes/api/artwork.json"
 
   async function fetchGalleryResults() {
     // console.log("Fetching...")
 
     if ($galleryResults.length == 0) {
-      const response = await fetch(
-        process.env.NODE_ENV == "development"
-          ? "http://localhost:3000/api/artwork.json"
-          : "https://art-perceptions.vercel.app/api/artwork.json"
-      );
-      const json = await response.json();
-      $galleryResults = json;
+      // const response = await fetch(
+      //   process.env.NODE_ENV == "development"
+      //     ? "http://localhost:3000/api/artwork.json"
+      //     : "https://art-perceptions.vercel.app/api/artwork.json"
+      // );
+      // const json = await response.json();
+      // $galleryResults = json;
+
+      $galleryResults = artworkJSON;
       shuffle($galleryResults);
     }
     // console.log("DONE")

@@ -1,13 +1,14 @@
 <script lang="ts" context="module">
+  import artworkJSON from "../api/artwork.json"
   export async function load({ params, fetch }) {
     const { id } = params;
-    const response = await fetch(
-      process.env.NODE_ENV == "development"
-        ? "http://localhost:3000/api/artwork.json"
-        : "https://art-perceptions.vercel.app/api/artwork.json"
-    );
-    const json = await response.json();
-    const galleryResults = json;
+    // const response = await fetch(
+    //   process.env.NODE_ENV == "development"
+    //     ? "http://localhost:3000/api/artwork.json"
+    //     : "https://art-perceptions.vercel.app/api/artwork.json"
+    // );
+    // const json = await response.json();
+    const galleryResults = artworkJSON;
     return { props: { id: id, galleryResults: galleryResults } };
   }
 </script>
