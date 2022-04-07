@@ -11,11 +11,11 @@
         // console.log("Fetching...")
         const response = await fetch(
             process.env.NODE_ENV == "development"
-                ? "http://localhost:3000/api/gallery-results.json"
+                ? "http://localhost:3000/api/artwork.json"
                 : "https://art-perceptions.vercel.app/api/gallery-results.json"
         );
         const json = await response.json();
-        galleryResults = json["objects"];
+        galleryResults = json;
         shuffle(galleryResults);
         // console.log("DONE")
     }
