@@ -1,13 +1,21 @@
 export interface GalleryArt {
-    embark_ID: number;
-    URL: string;
-    Disp_Title: string;
-    Disp_Maker_1: string;
-    Images: Array<Images>;
+    id: number;
+    url: string;
+    dateAdded: string;
+    title: string;
+    artist: string;
+    artistProper: string;
+    dispDimensions: string;
+    dispHeight: string;
+    dispWidth: string;
+    medium: string;
+    support: string;
+    dispMedium: string;
+    images: Array<Images>;
 }
 
 interface Images {
-    ImagePath: string;
-    ThumbnailPath: string;
-    PreviewPath: string;
+    imageURL: string;
+    thumbnailURL: string;
+    previewURL: string;
 }
