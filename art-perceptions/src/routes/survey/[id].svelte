@@ -87,6 +87,9 @@
     // console.log(form.clientWidth, dividerWidth * 8);
   }
 
+  // TODO: Show response/whether survey was submitted properly
+  // don't allow multiple submissions on same load
+  // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#checking_that_the_fetch_was_successful
   async function submitResults() {
     var responses = {};
     for (let i = 1; i < surveyQuestions.length; i++) {
