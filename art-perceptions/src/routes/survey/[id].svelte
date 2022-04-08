@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-  import artworkJSON from "../api/artwork.json"
+  import artworkJSON from "../api/sample-artwork.json"
   export async function load({ params, fetch }) {
     const { id } = params;
     // const response = await fetch(
@@ -65,7 +65,7 @@
   ];
 
   var emailResponse: string;
-  var virtualResponse: boolean;
+  var isInPerson: boolean;
 
   function handleScroll() {
     const form = window.document.getElementById("form-wrapper");
@@ -87,10 +87,28 @@
     // console.log(form.clientWidth, dividerWidth * 8);
   }
 
-  function submitResults() {
-    var form = document.getElementById("form-wrapper");
-    console.log(window.document.getElementById("form-wrapper"));
-    console.log("Submit");
+  async function submitResults() {
+    var responses = {};
+    for (let i = 1; i < surveyQuestions.length; i++) {
+      responses["q" + i] = surveyQuestions[i].responseValue;
+    }
+
+    let surveyEntry = {
+      email: emailResponse,
+      in_person: isInPerson,
+      responses: responses,
+      art_id: artObject.id
+    }
+
+    console.log(surveyEntry);
+    const url = process.env.NODE_ENV == "development"
+          ? "http://localhost:3000/api/survey"
+          : "https://art-perceptions.vercel.app/api/survey";
+
+    const response = await fetch(url, {
+      method: "POST",
+      body: JSON.stringify(surveyEntry)
+    });
   }
 </script>
 
@@ -110,16 +128,16 @@
       <div class="form-wrapper" id="form-wrapper" on:scroll={handleScroll}>
         <span class="question">
           <label>Your Email:</label>
-          <input type="email" placeholder="Email" />
+          <input type="email" placeholder="Email" bind:value={emailResponse} />
         </span>
 
         <!-- <span class="question"> -->
         <label><b>Are you in-person at the Gund Gallery?</b></label>
         <span style="margin-bottom: 1rem;">
           <label style="min-width: 3ch;">Yes</label>
-          <input type="radio" name="inperson" />
+          <input type="radio" name="inperson" bind:group={isInPerson} value="true"/>
           <label style="min-width: 3ch;">No </label>
-          <input type="radio" name="inperson" />
+          <input type="radio" name="inperson" bind:group={isInPerson} value="false"/>
         </span>
         <!-- </span> -->
 

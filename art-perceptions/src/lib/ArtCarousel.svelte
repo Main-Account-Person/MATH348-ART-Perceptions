@@ -4,7 +4,7 @@
   import { flip } from "svelte/animate";
   import type { GalleryArt } from "./models/GalleryArtModel";
   import { galleryResults } from "../stores";
-  import artworkJSON from "../routes/api/artwork.json"
+  import artworkJSON from "../routes/api/sample-artwork.json"
   // import * as artworkJSON from "../routes/api/artwork.json"
 
   async function fetchGalleryResults() {

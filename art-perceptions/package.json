@@ -23,6 +23,7 @@
   "type": "module",
   "dependencies": {
     "@rollup/plugin-json": "^4.1.0",
+    "@supabase/supabase-js": "^1.33.3",
     "@sveltejs/adapter-static": "^1.0.0-next.29",
     "@sveltejs/adapter-vercel": "^1.0.0-next.47"
   }

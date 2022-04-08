@@ -28,9 +28,6 @@
                     to the database!
                 </h4>
             </div>
-            <!-- At the Gund Gallery?  Search for a specific piece and input your perception. -->
-            <!-- Search Bar -->
-            <!-- Search Results -->
         </div>
     </body>
 </main>
