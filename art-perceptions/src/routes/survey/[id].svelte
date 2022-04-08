@@ -38,18 +38,15 @@
             responseValue: [5],
         },
         {
-            question:
-                "How visually pleasing do you find this piece to be?",
+            question: "How visually pleasing do you find this piece to be?",
             responseValue: [5],
         },
         {
-            question:
-                "How significant do you find the choice of subject matter?",
+            question: "How significant do you find the choice of subject matter?",
             responseValue: [5],
         },
         {
-            question:
-                "How skillfully is the artwork crafted?",
+            question: "How skillfully is the artwork crafted?",
             responseValue: [5],
         },
         {
@@ -61,8 +58,7 @@
             responseValue: [5],
         },
         {
-            question:
-                "How much of an “artist’s touch” do you find in this piece?",
+            question: "How much of an “artist’s touch” do you find in this piece?",
             responseValue: [5],
         },
     ];
@@ -121,8 +117,7 @@
       responseValue: [5],
     },
     {
-      question:
-        "How skillfully is the artwork crafted?",
+      question: "How skillfully is the artwork crafted?",
       responseValue: [5],
     },
     {
