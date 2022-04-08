@@ -11,18 +11,18 @@
         : ''} {index === 2 ? 'trailing' : ''}"
 >
     <img
-        src={galleryObject.Images[0].PreviewPath.replace(/jpg/, "png")}
+        src={galleryObject.images[0].previewURL}
         alt="{index} Image"
     />
     <div class="info">
         <span>
-            <h4>{galleryObject.Disp_Title}</h4>
-            <h5>{galleryObject.Disp_Maker_1}</h5>
+            <h4>{galleryObject.title}</h4>
+            <h5>{galleryObject.artist}</h5>
         </span>
 
         <span class="links">
-            <a href={galleryObject.URL} target="_blank">Gund Gallery</a>
-            <a href="/survey/{galleryObject.embark_ID}">Survey</a>
+            <a href={galleryObject.url} target="_blank">Gund Gallery</a>
+            <a href="/survey/{galleryObject.id}">Survey</a>
         </span>
     </div>
 </div>
