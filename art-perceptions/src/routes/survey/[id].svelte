@@ -14,6 +14,77 @@
 </script>
 
 <script lang="ts">
+<<<<<<< HEAD
+    import RangeSlider from "svelte-range-slider-pips";
+    import { galleryResults } from "../../stores";
+    import type { GalleryArt } from "../../lib/models/GalleryArtModel";
+    import NavigationBar from "$lib/NavigationBar.svelte";
+    export let id: Number;
+    let artObject: GalleryArt = $galleryResults.filter(function (art) {
+        return art.embark_ID == id;
+    })[0];
+
+    const surveyQuestions: { question: String; responseValue: Number[] }[] = [
+        {
+            question: "How would you rate the complexity of the design?",
+            responseValue: [5],
+        },
+        {
+            question: "How innovative do you find the use of materials?",
+            responseValue: [5],
+        },
+        {
+            question: "How would you rate the artwork’s ability to spark the imagination?",
+            responseValue: [5],
+        },
+        {
+            question: "How visually pleasing do you find this piece to be?",
+            responseValue: [5],
+        },
+        {
+            question: "How significant do you find the choice of subject matter?",
+            responseValue: [5],
+        },
+        {
+            question: "How skillfully is the artwork crafted?",
+            responseValue: [5],
+        },
+        {
+            question: "How meaningful do you find the piece subjectively?",
+            responseValue: [5],
+        },
+        {
+            question: "How successfully does the piece convey an idea?",
+            responseValue: [5],
+        },
+        {
+            question: "How much of an “artist’s touch” do you find in this piece?",
+            responseValue: [5],
+        },
+    ];
+
+    var emailResponse: string;
+    var virtualResponse: boolean;
+
+    function handleScroll() {
+        const form = window.document.getElementById("form-wrapper");
+        const maxHeight = form.scrollHeight - form.clientHeight;
+        var scrollPercent = (form.scrollTop / maxHeight) * 80;
+
+        const divider = window.document.getElementById("divider");
+        var dividerWidth: number = 20;
+        // if (scrollPercent >= 20) {
+        //     dividerWidth = scrollPercent;
+        // }
+
+        if (scrollPercent >= 65) {
+            scrollPercent = 65;
+        }
+        dividerWidth += scrollPercent;
+        divider.style.width = dividerWidth + "%";
+
+        // console.log(form.clientWidth, dividerWidth * 8);
+=======
   import RangeSlider from "svelte-range-slider-pips";
   // import { galleryResults } from "../../stores";
   import type { GalleryArt } from "../../lib/models/GalleryArtModel";
@@ -34,7 +105,11 @@
       responseValue: [5],
     },
     {
+<<<<<<< HEAD
       question: "How would you rate the artwork’s ability to spark the imagination?",
+=======
+      question: "How would you rate the artwork’s ability to spark the imagination??",
+>>>>>>> bfd119a1d17fad9a1bb2611bbfc05f508834b12e
       responseValue: [5],
     },
     {
@@ -46,8 +121,12 @@
       responseValue: [5],
     },
     {
+<<<<<<< HEAD
       question:
         "How skillfully is the artwork crafted?",
+=======
+      question: "How skillfully is the artwork crafted?",
+>>>>>>> bfd119a1d17fad9a1bb2611bbfc05f508834b12e
       responseValue: [5],
     },
     {
@@ -80,6 +159,7 @@
 
     if (scrollPercent >= 65) {
       scrollPercent = 65;
+>>>>>>> b45def934be875f6b67afb43a93bb77cf5922d23
     }
     dividerWidth += scrollPercent;
     divider.style.width = dividerWidth + "%";
