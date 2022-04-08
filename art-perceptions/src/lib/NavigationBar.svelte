@@ -23,12 +23,13 @@
         top: 0px;
     }
 
-    .NavBar * {
+    /* .NavBar * {
         padding: 0 4rem;
-    }
+    } */
 
     .NavBar a {
         padding: 0;
+        padding-left: 5rem;
         color: white;
         text-decoration: none;
         transition: all 0.2s ease 0s;
@@ -41,6 +42,7 @@
     .NavigationLinks {
         display: flex;
         margin: 0rem;
+        padding-right: 5rem;
         justify-content: space-evenly;
         align-items: center;
     }

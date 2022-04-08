@@ -90,7 +90,7 @@
   async function submitResults() {
     var responses = {};
     for (let i = 1; i < surveyQuestions.length; i++) {
-      responses["q" + i] = surveyQuestions[i].responseValue;
+      responses["q" + i] = surveyQuestions[i].responseValue[0];
     }
 
     let surveyEntry = {
