@@ -21,16 +21,16 @@
             responseValue: [5],
         },
         {
-            question: "How interesting do you find the use of materials?",
+            question: "How innovative do you find the use of materials?",
             responseValue: [5],
         },
         {
-            question: "How creative do you find the piece to be?",
+            question: "How would you rate the artwork’s ability to spark the imagination?",
             responseValue: [5],
         },
         {
             question:
-                "How aesthetically pleasing do you find this piece to be?",
+                "How visually pleasing do you find this piece to be?",
             responseValue: [5],
         },
         {
@@ -40,7 +40,7 @@
         },
         {
             question:
-                "How novel do you find the use of the techniques in constructing the piece?",
+                "How skillfully is the artwork crafted?",
             responseValue: [5],
         },
         {
@@ -48,7 +48,7 @@
             responseValue: [5],
         },
         {
-            question: "How accurate do you find the piece objectively?",
+            question: "How successfully does the piece convey an idea?",
             responseValue: [5],
         },
         {
