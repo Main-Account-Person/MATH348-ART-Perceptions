@@ -117,7 +117,7 @@
             const url =
                 process.env.NODE_ENV == "development"
                     ? "http://localhost:3000/api/survey"
-                    : "https://art-perceptions.vercel.app/api/survey";
+                    : "https://math-348-art-perceptions.vercel.app/api/survey";
 
             fetch(url, {
                 method: "POST",
