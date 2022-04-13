@@ -12,7 +12,7 @@
     <body class="categories">
         <h1>Add your perceptions.</h1>
         <div class="category-grid">
-            <div class="card" />
+            <div class="landscape" />
             <div class="card" />
             <div class="card" />
             <div class="card" />
