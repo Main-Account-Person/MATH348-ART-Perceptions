@@ -93,7 +93,7 @@
     var surveyStatus: SurveyStatus = SurveyStatus.input;
 
     async function submitResults() {
-        console.log(emailResponse, isInPerson);
+        console.log(emailResponse, isInPerson, surveyStatus);
         if (surveyStatus === SurveyStatus.success) {
             return;
         } else if (!emailResponse || !isInPerson) {
