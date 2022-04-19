@@ -1,6 +1,7 @@
 <script lang="ts">
     import NavigationBar from "../lib/NavigationBar.svelte";
     import ArtCarousel from "../lib/ArtCarousel.svelte";
+    import CategoryCard from "../lib/CategoryCard.svelte";
 </script>
 
 <svelte:head>
@@ -12,11 +13,16 @@
     <body class="categories">
         <h1>Add your perceptions.</h1>
         <div class="category-grid">
-            <div class="card" />
-            <div class="card" />
-            <div class="card" />
-            <div class="card" />
-            <div class="card" />
+            <CategoryCard category="Abstract" />
+            <CategoryCard category="Figurative" />
+            <CategoryCard category="Landscape" />
+            <CategoryCard category="Still Life" />
+            <CategoryCard category="Portrait" />
+            <!-- <div class="card" /> -->
+            <!-- <div class="card" /> -->
+            <!-- <div class="card" /> -->
+            <!-- <div class="card" /> -->
+            <!-- <div class="card" /> -->
         </div>
     </body>
 </main>
@@ -78,5 +84,4 @@
         background: white;
         border-radius: 20px;
     }
-
 </style>
