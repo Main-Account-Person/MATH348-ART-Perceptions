@@ -1,8 +1,6 @@
 <script lang="ts">
-<<<<<<< Updated upstream
 	import Chart from './LineChart.svelte';
 	responses_no=0;
-=======
 	// import Chart from './LineChart.svelte';
 	let responses_no=10;
 	let tellapart_no=5;
@@ -20,7 +18,6 @@
     {question:"Q7", score:2.4 },
     {question:"Q8", score:8.4 }
 	]
->>>>>>> Stashed changes
 </script>
 
 
