@@ -1,15 +1,41 @@
 <script lang="ts">
+<<<<<<< Updated upstream
 	import Chart from './LineChart.svelte';
 	responses_no=0;
+=======
+	// import Chart from './LineChart.svelte';
+	let responses_no=10;
+	let tellapart_no=5;
+	const response= fetch ("url")
+
+	import NavigationBar from "$lib/NavigationBar.svelte";
+	import Barchart from "$lib/Barchart.svelte";
+	let data = [
+		{question:'Q1', score:5 },
+		{question:"Q2", score:4.6 },
+		{question:'Q3', score:4.4 },
+		{question:"Q4", score:4 },
+		{question:"Q5", score:3 },
+		{question:"Q6", score:2.4 },
+    {question:"Q7", score:2.4 },
+    {question:"Q8", score:8.4 }
+	]
+>>>>>>> Stashed changes
 </script>
 
 
 <body>
 	<div class="section-one">
+		<NavigationBar />
 		<h1>Survey Results</h1>
 		<h2>See how results for AI-generated and human-made art compare</h2>
-		<p>So far, {responses_no} people have taken the survey.</p>
+		<p>So far, {responses_no} people have taken the survey. Of the {responses_no} survey-takers, {tellapart_no} were able to tell between the AI-generated and human-generated art pieces.</p>
+		<div class="chart_1">
+		<Barchart points = {data} />
+		</div>
 	</div>
+
+
 </body>
 <!-- <div class="grid">
 	<div style="width: 33.3%; height: 33.3%"><Chart/></div>
@@ -28,23 +54,21 @@
 		max-width: 100%;
 		height: 1080px;
 		overflow: hidden;
-		padding-top: 1rem;
+		padding-top: 2rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-content: center;
 		align-items: center;
+		background-position: left;
 		background-image: url("../../../images/background.jpeg");
-		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 }
 
 body {
-		width: 100%;
-		padding: 100;
-		background-color: red;
-		color: white;
+		margin:0;
+		padding: 0;
 }
 
 h2 {
@@ -52,6 +76,16 @@ h2 {
 		color: green;
 
 }
+
+.chart_1 {
+		width: 100%;
+		max-width: 640px;
+		height: calc(100% - 4em);
+		align-content:left;
+		min-height: 280px;
+		max-height: 480px;
+		margin: 0 auto;
+	}
 
 	/* .grid {
 		width: 100vw;
