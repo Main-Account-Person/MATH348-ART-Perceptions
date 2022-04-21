@@ -8,9 +8,9 @@
     <title>Surveys</title>
 </svelte:head>
 
-<main>
+<body>
     <NavigationBar />
-    <body class="categories">
+    <div class="categories">
         <h1>Add your perceptions.</h1>
         <div class="category-grid">
             <CategoryCard category="Abstract" />
@@ -18,14 +18,9 @@
             <CategoryCard category="Landscape" />
             <CategoryCard category="Still Life" />
             <CategoryCard category="Portrait" />
-            <!-- <div class="card" /> -->
-            <!-- <div class="card" /> -->
-            <!-- <div class="card" /> -->
-            <!-- <div class="card" /> -->
-            <!-- <div class="card" /> -->
         </div>
-    </body>
-</main>
+    </div>
+</body>
 
 <style>
     :root {
@@ -34,13 +29,19 @@
     }
 
     body {
+        /*     width: 100%; */
+        margin: 0;
+        padding: 0;
+        /*     padding: 0; */
+        /*     margin-top: -5rem; */
+    }
+
+    .categories {
         width: 100%;
         margin: 0;
         padding: 0;
         margin-top: -5rem;
-    }
 
-    .categories {
         max-width: 100%;
         height: 1080px;
         overflow: hidden;

@@ -9,7 +9,7 @@
 
 <main>
     <NavigationBar />
-    <body>
+    <body class="content">
         <div class="section-one">
             <div class="intro-text">
                 <h1>AI vs. Human Art</h1>
@@ -38,7 +38,7 @@
             Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     }
 
-    body {
+    .content {
         width: 100%;
         margin: 0;
         padding: 0;
