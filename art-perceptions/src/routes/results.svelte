@@ -1,10 +1,7 @@
 <script lang="ts">
-	import Chart from './LineChart.svelte';
-	responses_no=0;
-	// import Chart from './LineChart.svelte';
 	let responses_no=10;
 	let tellapart_no=5;
-	const response= fetch ("url")
+	//const response= fetch ("url")
 
 	import NavigationBar from "$lib/NavigationBar.svelte";
 	import Barchart from "$lib/Barchart.svelte";
@@ -22,13 +19,15 @@
 
 
 <body>
+
 	<div class="section-one">
 		<NavigationBar />
 		<h1>Survey Results</h1>
 		<h2>See how results for AI-generated and human-made art compare</h2>
 		<p>So far, {responses_no} people have taken the survey. Of the {responses_no} survey-takers, {tellapart_no} were able to tell between the AI-generated and human-generated art pieces.</p>
+
 		<div class="chart_1">
-		<Barchart points = {data} />
+			<Barchart points = {data} />
 		</div>
 	</div>
 
