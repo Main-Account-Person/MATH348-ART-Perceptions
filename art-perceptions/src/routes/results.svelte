@@ -1,22 +1,4 @@
 <script lang="ts">
-<<<<<<< HEAD
-	let responses_no=10;
-	let tellapart_no=5;
-	//const response= fetch ("url")
-
-	import NavigationBar from "$lib/NavigationBar.svelte";
-	import Barchart from "$lib/Barchart.svelte";
-	let data = [
-		{question:'Q1', score:5 },
-		{question:"Q2", score:4.6 },
-		{question:'Q3', score:4.4 },
-		{question:"Q4", score:4 },
-		{question:"Q5", score:3 },
-		{question:"Q6", score:2.4 },
-    {question:"Q7", score:2.4 },
-    {question:"Q8", score:8.4 }
-	]
-=======
     import NavigationBar from "$lib/NavigationBar.svelte";
     import Barchart from "$lib/Barchart.svelte";
     let responses_no = 10;
@@ -33,25 +15,9 @@
         { question: "Q7", score: 2.4 },
         { question: "Q8", score: 8.4 },
     ];
->>>>>>> d5e4d43963bdef045caea89d4488b04f8db76776
 </script>
 
 <body>
-<<<<<<< HEAD
-
-	<div class="section-one">
-		<NavigationBar />
-		<h1>Survey Results</h1>
-		<h2>See how results for AI-generated and human-made art compare</h2>
-		<p>So far, {responses_no} people have taken the survey. Of the {responses_no} survey-takers, {tellapart_no} were able to tell between the AI-generated and human-generated art pieces.</p>
-
-		<div class="chart_1">
-			<Barchart points = {data} />
-		</div>
-	</div>
-
-
-=======
     <NavigationBar />
     <div class="section-one">
         <h1>Survey Results</h1>
@@ -65,7 +31,6 @@
             <Barchart points={data} />
         </div>
     </div>
->>>>>>> d5e4d43963bdef045caea89d4488b04f8db76776
 </body>
 
 <style>
