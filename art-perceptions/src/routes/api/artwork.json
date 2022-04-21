@@ -1,6 +1,5 @@
-{
-    "abstract": [
-        {
+[
+          {
             "id": 8,
             "url": "https://collection.gundgallery.org/Objects-1/info/8",
             "dateAdded": "2006",
@@ -19,92 +18,10 @@
                     "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Calame_224Drawing.png",
                     "previewURL": "https://collection.gundgallery.org/Media/Previews/Calame_224Drawing.png"
                 }
-            ]
-        },
-        {
-            "id": 7,
-            "url": "https://collection.gundgallery.org/Objects-1/info/7",
-            "dateAdded": "1984",
-            "title": "Drummer",
-            "artist": "Tony Berlant",
-            "artistProper": "Berlant, Tony",
-            "dispDimensions": "49 x 40 in. (124.5 x 101.6 cm)",
-            "dispHeight": "49 in.",
-            "dispWidth": "40 in.",
-            "medium": "found metal collage with brads",
-            "support": "plywood",
-            "dispMedium": "found metal collage with brads on plywood",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Berlant_Drummer.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Berlant_Drummer.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Berlant_Drummer.png"
-                }
-            ]
-        },
-        {
-            "id": 11,
-            "url": "https://collection.gundgallery.org/Objects-1/info/11",
-            "dateAdded": "2000",
-            "title": "Gilded Silver and Aquamarine Chandelier with Putti",
-            "artist": "Dale Chihuly",
-            "artistProper": "Chihuly, Dale",
-            "dispDimensions": "94 x 84 in. (238.8 x 213.4 cm)",
-            "dispHeight": "94 in.",
-            "dispWidth": "84 in.",
-            "medium": "glass",
-            "support": "",
-            "dispMedium": "glass",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Chihuly_SilverChandelier.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Chihuly_SilverChandelier.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Chihuly_SilverChandelier.png"
-                }
-            ]
-        },
-        {
-            "id": 13,
-            "url": "https://collection.gundgallery.org/Objects-1/info/13",
-            "dateAdded": "1968",
-            "title": "Paolo",
-            "artist": "Ronald Davis",
-            "artistProper": "Davis, Ronald",
-            "dispDimensions": "60 x 144 in. (152.4 x 365.8 cm)",
-            "dispHeight": "60 in.",
-            "dispWidth": "144 in.",
-            "medium": "polyester resin and fiberglass",
-            "support": "",
-            "dispMedium": "polyester resin and fiberglass",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Davis_Paulo.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Davis_Paulo.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Davis_Paulo.png"
-                }
-            ]
-        },
-        {
-            "id": 16,
-            "url": "https://collection.gundgallery.org/Objects-1/info/16",
-            "dateAdded": "1982",
-            "title": "Untitled",
-            "artist": "Sam Francis",
-            "artistProper": "Francis, Sam",
-            "dispDimensions": "34 1/4 x 72 in. (87 x 182.9 cm)",
-            "dispHeight": "34 1/4 in.",
-            "dispWidth": "72 in.",
-            "medium": "monotype printed in colors",
-            "support": "handmade paper",
-            "dispMedium": "monotype printed in colors on handmade paper",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Francis_Untitled.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Francis_Untitled.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Francis_Untitled.png"
-                }
-            ]
-        },
+            ],
+            "category": "abstract",
+            "type": "human"
+         },
         {
             "id": 19,
             "url": "https://collection.gundgallery.org/Objects-1/info/19",
@@ -124,254 +41,77 @@
                     "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Gottlieb_Arabesque.png",
                     "previewURL": "https://collection.gundgallery.org/Media/Previews/Gottlieb_Arabesque.png"
                 }
-            ]
+            ],
+            "category": "abstract",
+            "type": "human"
+          },
+          {
+          "id": 32,
+          "url": "https://collection.gundgallery.org/Objects-1/info/32",
+          "dateAdded": "1987",
+          "title": "Irises",
+          "artist": "Robert Mapplethorpe",
+          "artistProper": "Mapplethorpe, Robert",
+          "dispDimensions": "50 x 44 in. (127 x 111.8 cm)",
+          "dispHeight": "50 in.",
+          "dispWidth": "44 in.",
+          "medium": "photogravure with silk collé",
+          "support": "",
+          "dispMedium": "photogravure with silk collé",
+          "images": [
+              {
+                  "imageURL": "https://collection.gundgallery.org/Media/images/Mapplethorpe_Lilies.jpg",
+                  "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Mapplethorpe_Lilies.png",
+                  "previewURL": "https://collection.gundgallery.org/Media/Previews/Mapplethorpe_Lilies.png"
+              }
+          ],
+          "category" :"abstract",
+          "type" : "human"
         },
-        {
-            "id": 20,
-            "url": "https://collection.gundgallery.org/Objects-1/info/20",
-            "dateAdded": "1982",
-            "title": "Extracten",
-            "artist": "Nancy Graves",
-            "artistProper": "Graves, Nancy",
-            "dispDimensions": "32 x 24 1/4 in. (81.3 x 61.6 cm) framed",
-            "dispHeight": "32 in.",
-            "dispWidth": "24 1/4 in.",
-            "medium": "intaglio print",
-            "support": "",
-            "dispMedium": "intaglio print",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Graves_Extracten.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Graves_Extracten.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Graves_Extracten.png"
-                }
-            ]
-        },
-        {
-            "id": 23,
-            "url": "https://collection.gundgallery.org/Objects-1/info/23",
-            "dateAdded": "1978",
-            "title": "Looking Back Kid",
-            "artist": "Robert H. Hudson",
-            "artistProper": "Hudson, Robert H.",
-            "dispDimensions": "32 1/4 x 42 1/4 in. (81.9 x 107.3 cm)",
-            "dispHeight": "32 1/4 in.",
-            "dispWidth": "42 1/4 in.",
-            "medium": "mixed media collage",
-            "support": "paper",
-            "dispMedium": "mixed media collage on paper",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Hudson_LookingBackKid.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Hudson_LookingBackKid.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Hudson_LookingBackKid.png"
-                }
-            ]
-        },
-        {
-            "id": 24,
-            "url": "https://collection.gundgallery.org/Objects-1/info/24",
-            "dateAdded": "1978",
-            "title": "Portrait",
-            "artist": "Robert H. Hudson",
-            "artistProper": "Hudson, Robert H.",
-            "dispDimensions": "32 1/4 x 42 1/4 in. (81.9 x 107.3 cm)",
-            "dispHeight": "32 1/4 in.",
-            "dispWidth": "42 1/4 in.",
-            "medium": "mixed media",
-            "support": "",
-            "dispMedium": "mixed media",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Hudson_Portrait.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Hudson_Portrait.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Hudson_Portrait.png"
-                }
-            ]
-        },
-        {
-            "id": 25,
-            "url": "https://collection.gundgallery.org/Objects-1/info/25",
-            "dateAdded": "1975",
-            "title": "Untitled",
-            "artist": "Robert H. Hudson",
-            "artistProper": "Hudson, Robert H.",
-            "dispDimensions": "21 1/2 x 18 1/2 x 3 in. (54.6 x 47 x 7.6 cm)",
+          {
+            "id": 116,
+            "url": "https://collection.gundgallery.org/Objects-1/info/116",
+            "dateAdded": "2004",
+            "title": "Spring Flowers / Yellow Vase",
+            "artist": "Janet Fish",
+            "artistProper": "Fish, Janet",
+            "dispDimensions": "21 1/2 x 15 3/4 in. (54.6 x 40 cm)",
             "dispHeight": "21 1/2 in.",
-            "dispWidth": "18 1/2 in.",
-            "medium": "collage with feather, stick and string",
-            "support": "mixed media ground",
-            "dispMedium": "collage with feather, stick and string on a mixed media ground",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Hudson_Untitled.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Hudson_Untitled.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Hudson_Untitled.png"
-                }
-            ]
-        },
-        {
-            "id": 26,
-            "url": "https://collection.gundgallery.org/Objects-1/info/26",
-            "dateAdded": "1976",
-            "title": "Dad's Da",
-            "artist": "Robert H. Hudson",
-            "artistProper": "Hudson, Robert H.",
-            "dispDimensions": "image: 30 1/4 x 25 3/8 in. (76.8 x 64.5 cm)",
-            "dispHeight": "30 1/4 in.",
-            "dispWidth": "25 3/8 in.",
-            "medium": "mixed media drawing and collage",
+            "dispWidth": "15 3/4 in.",
+            "medium": "Iris print",
             "support": "",
-            "dispMedium": "mixed media drawing and collage",
+            "dispMedium": "Iris print",
             "images": [
                 {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Hudson_DadsDa.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Hudson_DadsDa.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Hudson_DadsDa.png"
+                    "imageURL": "https://collection.gundgallery.org/Media/images/Fish_SpringFlowers.jpg",
+                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Fish_SpringFlowers.png",
+                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Fish_SpringFlowers.png"
                 }
-            ]
-        },
-        {
-            "id": 29,
-            "url": "https://collection.gundgallery.org/Objects-1/info/29",
-            "dateAdded": "1970",
-            "title": "Peace through Chemistry II",
-            "artist": "Roy Lichtenstein",
-            "artistProper": "Lichtenstein, Roy",
-            "dispDimensions": "37 1/4 x 63 in. (94.6 x 160 cm)",
-            "dispHeight": "37 1/4 in.",
-            "dispWidth": "63 in.",
-            "medium": "lithograph and screenprint in colors",
-            "support": "",
-            "dispMedium": "lithograph and screenprint in colors",
+            ],
+            "category": "still life",
+            "Type": "human"
+          },
+          {
+            "id": 28,
+            "url": "https://collection.gundgallery.org/Objects-1/info/28",
+            "dateAdded": "1971",
+            "title": "Ada II",
+            "artist": "Alex Katz",
+            "artistProper": "Katz, Alex",
+            "dispDimensions": "28 x 24 in. (71.1 x 61 cm)",
+            "dispHeight": "28 in.",
+            "dispWidth": "24 in.",
+            "medium": "pencil",
+            "support": "paper",
+            "dispMedium": "pencil on paper",
             "images": [
                 {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/2015_02_25-Lichtenstein.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/2015_02_25-Lichtenstein.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/2015_02_25-Lichtenstein.png"
+                    "imageURL": "https://collection.gundgallery.org/Media/images/Katz_AdaII.jpg",
+                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Katz_AdaII.png",
+                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Katz_AdaII.png"
                 }
-            ]
-        },
-        {
-            "id": 37,
-            "url": "https://collection.gundgallery.org/Objects-1/info/37",
-            "dateAdded": "1975",
-            "title": "L'Attrape-Soleil",
-            "artist": "Joan Miro",
-            "artistProper": "Miro, Joan",
-            "dispDimensions": "36 3/4 x 25 3/4 in. (93.3 x 65.4 cm)",
-            "dispHeight": "36 3/4 in.",
-            "dispWidth": "25 3/4 in.",
-            "medium": "etching and aquatint printed in colors",
-            "support": "Arches wove paper",
-            "dispMedium": "etching and aquatint printed in colors on Arches wove paper",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Miro_LAttrapeSoleil.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Miro_LAttrapeSoleil.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Miro_LAttrapeSoleil.png"
-                }
-            ]
-        },
-        {
-            "id": 40,
-            "url": "https://collection.gundgallery.org/Objects-1/info/40",
-            "dateAdded": "1979",
-            "title": "Untitled",
-            "artist": "Kenneth Noland",
-            "artistProper": "Noland, Kenneth",
-            "dispDimensions": "34 1/2 x 34 1/2 in. (87.6 x 87.6 cm)",
-            "dispHeight": "34 1/2 in.",
-            "dispWidth": "34 1/2 in.",
-            "medium": "handmade paper",
-            "support": "",
-            "dispMedium": "handmade paper",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Noland_Untitled.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Noland_Untitled.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Noland_Untitled.png"
-                }
-            ]
-        },
-        {
-            "id": 41,
-            "url": "https://collection.gundgallery.org/Objects-1/info/41",
-            "dateAdded": "1961",
-            "title": "Inner Way",
-            "artist": "Kenneth Noland",
-            "artistProper": "Noland, Kenneth",
-            "dispDimensions": "61 x 61 in. (154.9 x 154.9 cm)",
-            "dispHeight": "61 in.",
-            "dispWidth": "61 in.",
-            "medium": "acrylic",
-            "support": "canvas",
-            "dispMedium": "acrylic on canvas",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Noland_InnerWay.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Noland_InnerWay.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Noland_InnerWay.png"
-                }
-            ]
-        },
-        {
-            "id": 47,
-            "url": "https://collection.gundgallery.org/Objects-1/info/47",
-            "dateAdded": "1987",
-            "title": "Sister Shrieks",
-            "artist": "James Rosenquist",
-            "artistProper": "Rosenquist, James",
-            "dispDimensions": "48 x 80 in. (121.9 x 203.2 cm)",
-            "dispHeight": "48 in.",
-            "dispWidth": "80 in.",
-            "medium": "23-color monoprint / lithograph with adhered elements from one Plexiglass plate and nine aluminum plates",
-            "support": "",
-            "dispMedium": "23-color monoprint / lithograph with adhered elements from one Plexiglass plate and nine aluminum plates",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Rosenquist_SisterShrieks.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Rosenquist_SisterShrieks.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Rosenquist_SisterShrieks.png"
-                }
-            ]
-        },
-        {
-            "id": 52,
-            "url": "https://collection.gundgallery.org/Objects-1/info/52",
-            "dateAdded": "1993",
-            "title": "Ambergris",
-            "artist": "Frank Stella",
-            "artistProper": "Stella, Frank",
-            "dispDimensions": "41 3/4 x 52 1/2 in. (106 x 133.4 cm)",
-            "dispHeight": "41 3/4 in.",
-            "dispWidth": "52 1/2 in.",
-            "medium": "color lithograph, etching, aquatint, relief, engraving and screenprint",
-            "support": "white TGL handmade paper",
-            "dispMedium": "color lithograph, etching, aquatint, relief, engraving and screenprint on white TGL handmade paper",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Stella_Ambergris.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Stella_Ambergris.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Stella_Ambergris.png"
-                }
-            ]
-        }
-    ],
-
-    "figurative": [
-
-    ],
-
-    "landscape": [
-
-    ],
-
-    "portrait": [
-
-    ],
-
-    "still": [
-        
-    ]
-}
+            ],
+            "category": "Portrait",
+            "type": "human"
+          },
+]

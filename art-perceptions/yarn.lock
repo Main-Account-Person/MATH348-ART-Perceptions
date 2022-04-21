@@ -147,6 +147,13 @@
     sade "^1.7.4"
     vite "^2.8.0"
 
+"@sveltejs/pancake@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@sveltejs/pancake/-/pancake-0.0.18.tgz#d126983723aaee62b46804ec180a0e19dd930118"
+  integrity sha512-vnpKn+sHE0yvw/6x4juF9EoDS8iYC5JNIVtRgclA37rfxdnIpvbVxStiZ5/gWncjERN4jtSpTAplS1zCARCBXA==
+  dependencies:
+    yootils "0.0.16"
+
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.32":
   version "1.0.0-next.39"
   resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.39.tgz#b9437de18d13a475f76cf603511174cdf905b8d4"
@@ -983,3 +990,8 @@ yaeti@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/yaeti/-/yaeti-0.0.6.tgz#f26f484d72684cf42bedfb76970aa1608fbf9577"
   integrity sha1-8m9ITXJoTPQr7ft2lwqhYI+/lXc=
+
+yootils@0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/yootils/-/yootils-0.0.16.tgz#4a41acf7f0c333c8508e72b046b0c749171b9de8"
+  integrity sha512-aIVecm5ucOzwhtKbl0zkfg0ZSOUR9c2da0k8cIc9umjjzkvVCWUUX/UHZ1CLPsv4wmJLqt0aWeLB7p9n9JDwYQ==

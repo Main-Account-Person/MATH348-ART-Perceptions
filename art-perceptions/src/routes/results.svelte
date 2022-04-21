@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import Chart from './LineChart.svelte';
+	import Chart from './LineChart.svelte';
 	responses_no=0;
 </script>
 

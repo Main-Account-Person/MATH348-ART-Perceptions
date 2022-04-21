@@ -137,7 +137,7 @@
     <NavigationBar />
     <body class="content">
         <div class="ArtInfoCard">
-            <img src={artObject.images[0].imageURL} alt="Image" />
+            <img src={artObject.images[0].imageURL} alt="Artwork" />
             <h1>{artObject.title}</h1>
             <h4>by {artObject.artist}</h4>
         </div>
