@@ -3,7 +3,9 @@
     import Barchart from "$lib/Barchart.svelte";
     let responses_no = 10;
     let tellapart_no = 5;
-    // const response = fetch("url");
+    const response = fetch("https://math-348-art-perceptions.vercel.app/api/survey");
+		const json = await response.json()
+		console.log(json);
 
     let data = [
         { question: "Q1", score: 5 },
