@@ -12,6 +12,7 @@
 >
     <img
         src={galleryObject.images[0].previewURL}
+        loading="eager"
         alt="{index} Image"
     />
     <div class="info">
@@ -53,6 +54,7 @@
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
+        color: black;
     }
 
     .art-card .info * {

@@ -1,11 +1,41 @@
 <script lang="ts">
+    import { flip } from "svelte/animate";
+    import { fly, fade } from "svelte/transition";
     import ArtCarousel from "$lib/ArtCarousel.svelte";
     import NavigationBar from "$lib/NavigationBar.svelte";
+    import ArtCard from "../lib/ArtCard.svelte";
+    import type { GalleryArt } from "../lib/models/GalleryArtModel";
+    import { galleryResults } from "../stores";
+    import { text } from "svelte/internal";
+
+    var searchText: string;
+    var searchResults: GalleryArt[];
+
+    function filterArt(art: GalleryArt) {
+        if (art.title.toLowerCase().includes(searchText.toLowerCase())) {
+            return art;
+        }
+    }
+
+    function searchArt() {
+        if (searchText) {
+            if (searchText.length > 1) {
+                searchResults = $galleryResults.filter(filterArt);
+            }
+        } else {
+            scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+            searchResults = [];
+        }
+    }
+
+    let scrollY: number;
 </script>
 
 <svelte:head>
     <title>Art Perceptions</title>
 </svelte:head>
+
+<svelte:window bind:scrollY />
 
 <main>
     <NavigationBar />
@@ -21,12 +51,52 @@
 
             <ArtCarousel />
 
-            <div class="gund-gallery">
-                <h1>At the Gund Gallery?</h1>
-                <h4>
-                    Search for a specific piece of art and add your perception
-                    to the database!
-                </h4>
+            <div class="search-container">
+                <div class="gund-gallery">
+                    <h1>At the Gund Gallery?</h1>
+                    <h4>
+                        Search for a specific piece of art and add your
+                        perception to the database!
+                    </h4>
+                </div>
+                <input
+                    type="text"
+                    placeholder="Artwork Title"
+                    bind:value={searchText}
+                    on:input={searchArt}
+                    class="searchbar"
+                />
+                <div class="search-results">
+                    {#if searchResults}
+                        {#if searchResults.length === 0}
+                            <span
+                                in:fade={{
+                                    duration: 100,
+                                }}
+                                style="color: white;"
+                            >
+                                No results found.
+                            </span>
+                        {:else}
+                            {#each searchResults as art, _ (art)}
+                                <div
+                                    animate:flip={{ duration: 400 }}
+                                    in:fly={{
+                                        y: -50,
+                                        duration: 200,
+                                    }}
+                                    class="animation-wrap"
+                                >
+                                    <ArtCard
+                                        index={1}
+                                        isPrimary={false}
+                                        galleryObject={art}
+                                    />
+                                </div>
+                            {/each}
+                        {/if}
+                    {/if}
+                </div>
             </div>
         </div>
     </body>
@@ -43,22 +113,26 @@
         margin: 0;
         padding: 0;
         margin-top: -5rem;
+        height: 100%;
     }
 
     .section-one {
         max-width: 100%;
-        height: 1080px;
-        overflow: hidden;
+        min-height: 100vh;
+        /* height: 1080px; */
+        /* overflow: hidden; */
         padding-top: 4rem;
+        padding-bottom: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-content: center;
         align-items: center;
-        background-image: url("../../../images/background.jpeg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background: linear-gradient(#f29e5a, purple, #3e01b4 120vh, #340198);
+        /* background-image: url("../../../images/background.jpeg"); */
+        /* background-position: center; */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
     }
 
     .intro-text {
@@ -83,6 +157,10 @@
     .gund-gallery {
         margin-top: 7rem;
         color: white;
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        align-self: auto;
     }
 
     .gund-gallery h1 {
@@ -94,5 +172,37 @@
         margin: 0;
         padding: 0;
         font-weight: 500;
+    }
+
+    .search-container {
+        z-index: 3;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+
+    .searchbar {
+        min-width: 55%;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 18px;
+        border: 3px groove #3e01b4;
+        position: sticky;
+        top: 1.5rem;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .search-results {
+        margin-top: 2rem;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+        column-gap: 1rem;
+        row-gap: 3rem;
+        justify-items: center;
     }
 </style>
