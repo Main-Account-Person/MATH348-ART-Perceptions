@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-    import artworkJSON from "../api/sample-artwork.json";
+    import artworkJSON from "../api/artwork.json";
     export async function load({ params }) {
         const { id } = params;
         const galleryResults = artworkJSON;

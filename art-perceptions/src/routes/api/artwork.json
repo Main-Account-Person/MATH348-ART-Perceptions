@@ -1,117 +1,933 @@
 [
-          {
-            "id": 8,
-            "url": "https://collection.gundgallery.org/Objects-1/info/8",
-            "dateAdded": "2006",
-            "title": "#224 Drawing (Tracings up to the L.A. River placed in the Clark Telescope Dome, Lowell Observatory, Flagstaff, AZ)",
-            "artist": "Ingrid Calame",
-            "artistProper": "Calame, Ingrid",
-            "dispDimensions": "92 x 60 in. (233.7 x 152.4 cm)",
-            "dispHeight": "92 in.",
-            "dispWidth": "60 in.",
-            "medium": "color pencil",
-            "support": "trace Mylar",
-            "dispMedium": "color pencil on trace Mylar",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Calame_224Drawing.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Calame_224Drawing.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Calame_224Drawing.png"
-                }
-            ],
-            "category": "abstract",
-            "type": "human"
-         },
-        {
-            "id": 19,
-            "url": "https://collection.gundgallery.org/Objects-1/info/19",
-            "dateAdded": "1967",
-            "title": "Arabesque",
-            "artist": "Adolph Gottlieb",
-            "artistProper": "Gottlieb, Adolph",
-            "dispDimensions": "22 x 29 3/4 in. (55.9 x 75.6 cm)",
-            "dispHeight": "22 in.",
-            "dispWidth": "29 3/4 in.",
-            "medium": "silkscreen",
-            "support": "",
-            "dispMedium": "silkscreen",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Gottlieb_Arabesque.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Gottlieb_Arabesque.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Gottlieb_Arabesque.png"
-                }
-            ],
-            "category": "abstract",
-            "type": "human"
-          },
-          {
-          "id": 32,
-          "url": "https://collection.gundgallery.org/Objects-1/info/32",
-          "dateAdded": "1987",
-          "title": "Irises",
-          "artist": "Robert Mapplethorpe",
-          "artistProper": "Mapplethorpe, Robert",
-          "dispDimensions": "50 x 44 in. (127 x 111.8 cm)",
-          "dispHeight": "50 in.",
-          "dispWidth": "44 in.",
-          "medium": "photogravure with silk collé",
-          "support": "",
-          "dispMedium": "photogravure with silk collé",
-          "images": [
-              {
-                  "imageURL": "https://collection.gundgallery.org/Media/images/Mapplethorpe_Lilies.jpg",
-                  "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Mapplethorpe_Lilies.png",
-                  "previewURL": "https://collection.gundgallery.org/Media/Previews/Mapplethorpe_Lilies.png"
-              }
-          ],
-          "category" :"abstract",
-          "type" : "human"
-        },
-          {
-            "id": 116,
-            "url": "https://collection.gundgallery.org/Objects-1/info/116",
-            "dateAdded": "2004",
-            "title": "Spring Flowers / Yellow Vase",
-            "artist": "Janet Fish",
-            "artistProper": "Fish, Janet",
-            "dispDimensions": "21 1/2 x 15 3/4 in. (54.6 x 40 cm)",
-            "dispHeight": "21 1/2 in.",
-            "dispWidth": "15 3/4 in.",
-            "medium": "Iris print",
-            "support": "",
-            "dispMedium": "Iris print",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Fish_SpringFlowers.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Fish_SpringFlowers.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Fish_SpringFlowers.png"
-                }
-            ],
-            "category": "still life",
-            "Type": "human"
-          },
-          {
-            "id": 28,
-            "url": "https://collection.gundgallery.org/Objects-1/info/28",
-            "dateAdded": "1971",
-            "title": "Ada II",
-            "artist": "Alex Katz",
-            "artistProper": "Katz, Alex",
-            "dispDimensions": "28 x 24 in. (71.1 x 61 cm)",
-            "dispHeight": "28 in.",
-            "dispWidth": "24 in.",
-            "medium": "pencil",
-            "support": "paper",
-            "dispMedium": "pencil on paper",
-            "images": [
-                {
-                    "imageURL": "https://collection.gundgallery.org/Media/images/Katz_AdaII.jpg",
-                    "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Katz_AdaII.png",
-                    "previewURL": "https://collection.gundgallery.org/Media/Previews/Katz_AdaII.png"
-                }
-            ],
-            "category": "Portrait",
-            "type": "human"
-          },
+    {
+        "id": 229,
+        "url": "https://collection.gundgallery.org/Objects-1/info/229",
+        "dateAdded": "2014",
+        "title": "delta",
+        "artist": "Pia Fries",
+        "artistProper": "Fries, Pia",
+        "dispDimensions": "23 5/8 x 31 1/2 in. (60 x 80 cm)",
+        "dispHeight": "23 5/8 in.",
+        "dispWidth": "31 1/2 in.",
+        "medium": "oil and silkscreen",
+        "support": "wood",
+        "dispMedium": "oil and silkscreen on wood",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/2018_02_01-Fries.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/2018_02_01-Fries.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/2018_02_01-Fries.png"
+            }
+        ],
+        "category": "abstract",
+        "type": "human"
+    },
+    {
+        "id": 118,
+        "url": "https://collection.gundgallery.org/Objects-1/info/118",
+        "dateAdded": "1996",
+        "title": "West Wind",
+        "artist": "Helen Frankenthaler",
+        "artistProper": "Frankenthaler, Helen",
+        "dispDimensions": "41 1/4 x 35 1/2 in. (104.8 x 90.2 cm)",
+        "dispHeight": "41 1/4 in.",
+        "dispWidth": "35 1/2 in.",
+        "medium": "silkscreen in 37 colors",
+        "support": "",
+        "dispMedium": "silkscreen in 37 colors",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Frankenthaler_WestWind.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Frankenthaler_WestWind.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Frankenthaler_WestWind.png"
+            }
+        ],
+        "category": "abstract",
+        "type": "human"
+    },
+    {
+        "id": 123,
+        "url": "https://collection.gundgallery.org/Objects-1/info/123",
+        "dateAdded": "1975",
+        "title": "fireworks",
+        "artist": "Corita",
+        "artistProper": "Kent, Corita",
+        "dispDimensions": "frame: 17 x 21 in. (43.2 x 53.3 cm)",
+        "dispHeight": "17 in.",
+        "dispWidth": "21 in.",
+        "medium": "silkscreen",
+        "support": "",
+        "dispMedium": "silkscreen",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Corita_Untitled.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Corita_Untitled.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Corita_Untitled.png"
+            }
+        ],
+        "category": "abstract",
+        "type": "human"
+    },
+    {
+        "id": 13,
+        "url": "https://collection.gundgallery.org/Objects-1/info/13",
+        "dateAdded": "1968",
+        "title": "Paolo",
+        "artist": "Ronald Davis",
+        "artistProper": "Davis, Ronald",
+        "dispDimensions": "60 x 144 in. (152.4 x 365.8 cm)",
+        "dispHeight": "60 in.",
+        "dispWidth": "144 in.",
+        "medium": "polyester resin and fiberglass",
+        "support": "",
+        "dispMedium": "polyester resin and fiberglass",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Davis_Paulo.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Davis_Paulo.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Davis_Paulo.png"
+            }
+        ],
+        "category": "abstract",
+        "type": "human"
+    },
+    {
+        "id": 19,
+        "url": "https://collection.gundgallery.org/Objects-1/info/19",
+        "dateAdded": "1967",
+        "title": "Arabesque",
+        "artist": "Adolph Gottlieb",
+        "artistProper": "Gottlieb, Adolph",
+        "dispDimensions": "22 x 29 3/4 in. (55.9 x 75.6 cm)",
+        "dispHeight": "22 in.",
+        "dispWidth": "29 3/4 in.",
+        "medium": "silkscreen",
+        "support": "",
+        "dispMedium": "silkscreen",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Gottlieb_Arabesque.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Gottlieb_Arabesque.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Gottlieb_Arabesque.png"
+            }
+        ],
+        "category": "abstract",
+        "type": "human"
+    },
+    {
+        "id": 7,
+        "url": "https://collection.gundgallery.org/Objects-1/info/7",
+        "dateAdded": "1984",
+        "title": "Drummer",
+        "artist": "Tony Berlant",
+        "artistProper": "Berlant, Tony",
+        "dispDimensions": "49 x 40 in. (124.5 x 101.6 cm)",
+        "dispHeight": "49 in.",
+        "dispWidth": "40 in.",
+        "medium": "found metal collage with brads",
+        "support": "plywood",
+        "dispMedium": "found metal collage with brads on plywood",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Berlant_Drummer.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Berlant_Drummer.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Berlant_Drummer.png"
+            }
+        ],
+        "category": "abstract",
+        "type": "human"
+    },
+    {
+        "id": 8101,
+        "url": "https://www.artaigallery.com/collections/all-items/products/mixology-age",
+        "dateAdded": "N/A",
+        "title": "Mixology Age",
+        "artist": "Ollynol",
+        "artistProper": "Ollynol",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_1080x.jpg?v=1624886343%201080w",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_1080x.jpg?v=1624886343%201080w",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_1080x.jpg?v=1624886343%201080w"
+            }
+        ],
+        "category": "abstract",
+        "type": "ai"
+    },
+    {
+        "id": 8102,
+        "url": "https://www.artaigallery.com/collections/all-items/products/testing-truth",
+        "dateAdded": "N/A",
+        "title": "Testing Truth",
+        "artist": "Abstrix",
+        "artistProper": "Abstrix",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_1080x.jpg?v=1624283354",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_1080x.jpg?v=1624283354",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_1080x.jpg?v=1624283354"
+            }
+        ],
+        "category": "abstract",
+        "type": "ai"
+    },
+    {
+        "id": 8103,
+        "url": "https://www.artaigallery.com/collections/all-items/products/reality-check",
+        "dateAdded": "N/A",
+        "title": "Reality Check",
+        "artist": "Minicrisp",
+        "artistProper": "Minicrisp",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_1080x.jpg?v=1624283382",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_1080x.jpg?v=1624283382",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_1080x.jpg?v=1624283382"
+            }
+        ],
+        "category": "abstract",
+        "type": "ai"
+    },
+    {
+        "id": 8104,
+        "url": "https://www.artaigallery.com/collections/all-items/products/agreeing-lost",
+        "dateAdded": "N/A",
+        "title": "Agreeing Lost",
+        "artist": "T34MW@RK",
+        "artistProper": "T34MW@RK",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_1080x.jpg?v=1624283264",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_1080x.jpg?v=1624283264",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_1080x.jpg?v=1624283264"
+            }
+        ],
+        "category": "abstract",
+        "type": "ai"
+    },
+    {
+        "id": 8105,
+        "url": "https://www.artaigallery.com/collections/all-items/products/finite-maze",
+        "dateAdded": "N/A",
+        "title": "Finite Maze",
+        "artist": "Abstrix",
+        "artistProper": "Abstrix",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_1080x.jpg?v=1624283262",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_1080x.jpg?v=1624283262",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_1080x.jpg?v=1624283262"
+            }
+        ],
+        "category": "abstract",
+        "type": "ai"
+    },
+    {
+        "id": 4,
+        "url": "https://collection.gundgallery.org/Objects-1/info/4",
+        "dateAdded": "1976",
+        "title": "Bear Kill - Rainbow",
+        "artist": "William George Allan",
+        "artistProper": "Allan, William George",
+        "dispDimensions": "frame: 24 x 38 1/2 in. (61 x 97.8 cm)",
+        "dispHeight": "24 in.",
+        "dispWidth": "38 1/2 in.",
+        "medium": "watercolor",
+        "support": "paper",
+        "dispMedium": "watercolor on paper",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Allan_BearKill.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Allan_BearKill.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Allan_BearKill.png"
+            }
+        ],
+        "category": "figurative",
+        "type": "human"
+    },
+    {
+        "id": 22,
+        "url": "https://collection.gundgallery.org/Objects-1/info/22",
+        "dateAdded": "1991",
+        "title": "Peace",
+        "artist": "Laurie Hogin",
+        "artistProper": "Hogin, Laurie",
+        "dispDimensions": "68 x 92 in. (172.7 x 233.7 cm)",
+        "dispHeight": "68 in.",
+        "dispWidth": "92 in.",
+        "medium": "oil",
+        "support": "canvas",
+        "dispMedium": "oil on canvas",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Hogin_Peace.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Hogin_Peace.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Hogin_Peace.png"
+            }
+        ],
+        "category": "figurative",
+        "type": "human"
+    },
+    {
+        "id": 62,
+        "url": "https://collection.gundgallery.org/Objects-1/info/62",
+        "dateAdded": "1976",
+        "title": "Myrtle St. Playground #1",
+        "artist": "Richard Yarde",
+        "artistProper": "Yarde, Richard",
+        "dispDimensions": "26 1/4 x 33 1/4 in. (66.7 x 84.5 cm)",
+        "dispHeight": "26 1/4 in.",
+        "dispWidth": "33 1/4 in.",
+        "medium": "watercolor",
+        "support": "paper",
+        "dispMedium": "watercolor on paper",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Yarde_MyrtlePlayground.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Yarde_MyrtlePlayground.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Yarde_MyrtlePlayground.png"
+            }
+        ],
+        "category": "figurative",
+        "type": "human"
+    },
+    {
+        "id": 30,
+        "url": "https://collection.gundgallery.org/Objects-1/info/30",
+        "dateAdded": "1984-1986",
+        "title": "Violet Tailed Sylph and Crimson Topaz",
+        "artist": "Robert Lostutter",
+        "artistProper": "Lostutter, Robert",
+        "dispDimensions": "9 1/2 x 20 7/8 in. (24.1 x 53 cm)",
+        "dispHeight": "9 1/2 in.",
+        "dispWidth": "20 7/8 in.",
+        "medium": "watercolor",
+        "support": "",
+        "dispMedium": "watercolor",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Lostutter_SylphandTopaz.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Lostutter_SylphandTopaz.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Lostutter_SylphandTopaz.png"
+            }
+        ],
+        "category": "figurative",
+        "type": "human"
+    },
+    {
+        "id": 14,
+        "url": "https://collection.gundgallery.org/Objects-1/info/14",
+        "dateAdded": "1975",
+        "title": "Untitled #158",
+        "artist": "Roy Dean De Forest",
+        "artistProper": "De Forest, Roy Dean",
+        "dispDimensions": "22 x 30 in. (55.9 x 76.2 cm)",
+        "dispHeight": "22 in.",
+        "dispWidth": "30 in.",
+        "medium": "mixed media",
+        "support": "paper",
+        "dispMedium": "mixed media on paper",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/DeForest_Untitled.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/DeForest_Untitled.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/DeForest_Untitled.png"
+            }
+        ],
+        "category": "figurative",
+        "type": "human"
+    },
+    {
+        "id": 8106,
+        "url": "https://www.artaigallery.com/collections/all-items/products/the-infinite-journey",
+        "dateAdded": "N/A",
+        "title": "The Infinite Journey",
+        "artist": "Sophtboi",
+        "artistProper": "Sophtboi",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_1080x.jpg?v=1624283153",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_1080x.jpg?v=1624283153",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_1080x.jpg?v=1624283153"
+            }
+        ],
+        "category": "figurative",
+        "type": "ai"
+    },
+    {
+        "id": 8107,
+        "url": "https://www.artaigallery.com/collections/all-items/products/strolling-walks",
+        "dateAdded": "N/A",
+        "title": "Strolling Walks",
+        "artist": "Sophtboi",
+        "artistProper": "Sophtboi",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_1080x.jpg?v=1624283132",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_1080x.jpg?v=1624283132",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_1080x.jpg?v=1624283132"
+            }
+        ],
+        "category": "figurative",
+        "type": "ai"
+    },
+    {
+        "id": 8108,
+        "url": "https://www.artaigallery.com/collections/all-items/products/making-a-run",
+        "dateAdded": "N/A",
+        "title": "Making a Run",
+        "artist": "Gloombot",
+        "artistProper": "Gloombot",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_1080x.jpg?v=1624283127",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_1080x.jpg?v=1624283127",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_1080x.jpg?v=1624283127"
+            }
+        ],
+        "category": "figurative",
+        "type": "ai"
+    },
+    {
+        "id": 8109,
+        "url": "https://www.artaigallery.com/collections/all-items/products/further-reduction",
+        "dateAdded": "N/A",
+        "title": "Further Reduction",
+        "artist": "Xpressor",
+        "artistProper": "Xpressor",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_1080x.jpg?v=1624550505",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_1080x.jpg?v=1624550505",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_1080x.jpg?v=1624550505"
+            }
+        ],
+        "category": "figurative",
+        "type": "ai"
+    },
+    {
+        "id": 8110,
+        "url": "https://www.artaigallery.com/collections/all-items/products/fighting-hopes",
+        "dateAdded": "N/A",
+        "title": "Fighting Hopes",
+        "artist": "Gloombot",
+        "artistProper": "Gloombot",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_1080x.jpg?v=1624281725",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_1080x.jpg?v=1624281725",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_1080x.jpg?v=1624281725"
+            }
+        ],
+        "category": "figurative",
+        "type": "ai"
+    },
+    {
+        "id": 59,
+        "url": "https://collection.gundgallery.org/Objects-1/info/59",
+        "dateAdded": "1984",
+        "title": "Dusk No. 16",
+        "artist": "James Winn",
+        "artistProper": "Winn, James",
+        "dispDimensions": "frame: 27 x 66 1/4 in. (68.6 x 168.3 cm)",
+        "dispHeight": "27 in.",
+        "dispWidth": "66 1/4 in.",
+        "medium": "acrylic",
+        "support": "paper",
+        "dispMedium": "acrylic on paper",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Winn_Dusk16.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Winn_Dusk16.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Winn_Dusk16.png"
+            }
+        ],
+        "category": "landscape",
+        "type": "human"
+    },
+    {
+        "id": 115,
+        "url": "https://collection.gundgallery.org/Objects-1/info/115",
+        "dateAdded": "2009",
+        "title": "La Baie du Mont Saint Michel",
+        "artist": "Elger Esser",
+        "artistProper": "Esser, Elger",
+        "dispDimensions": "frame: 73 x 95 in. (185.4 x 241.3 cm)",
+        "dispHeight": "73 in.",
+        "dispWidth": "95 in.",
+        "medium": "C-print",
+        "support": "Diasec face",
+        "dispMedium": "C-print on Diasec face",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Esser_MontStMichel.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Esser_MontStMichel.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Esser_MontStMichel.png"
+            }
+        ],
+        "category": "landscape",
+        "type": "human"
+    },
+    {
+        "id": 281,
+        "url": "https://collection.gundgallery.org/Objects-1/info/281",
+        "dateAdded": "2007",
+        "title": "Chonming Wetland, Shanghai",
+        "artist": "Wang Ping",
+        "artistProper": "Wang Ping",
+        "dispDimensions": "framed: 33 1/2 x 45 3/4 in. (85.09 x 116.21 cm)",
+        "dispHeight": "33 1/2 in.",
+        "dispWidth": "45 3/4 in.",
+        "medium": "color photograph",
+        "support": "",
+        "dispMedium": "color photograph",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/2020_04_15-Wang-Image.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/2020_04_15-Wang-Image.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/2020_04_15-Wang-Image.png"
+            }
+        ],
+        "category": "landscape",
+        "type": "human"
+    },
+    {
+        "id": 8111,
+        "url": "https://www.artaigallery.com/collections/all-items/products/up-and-down",
+        "dateAdded": "N/A",
+        "title": "Up and Down",
+        "artist": "Globix",
+        "artistProper": "Globix",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_1080x.jpg?v=1628525067",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_1080x.jpg?v=1628525067",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_1080x.jpg?v=1628525067"
+            }
+        ],
+        "category": "landscape",
+        "type": "ai"
+    },
+    {
+        "id": 8112,
+        "url": "https://www.artaigallery.com/collections/all-items/products/the-great-lake",
+        "dateAdded": "N/A",
+        "title": "The Great Lake",
+        "artist": "Globix",
+        "artistProper": "Globix",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_1080x.jpg?v=1628524867",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_1080x.jpg?v=1628524867",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_1080x.jpg?v=1628524867"
+            }
+        ],
+        "category": "landscape",
+        "type": "ai"
+    },
+    {
+        "id": 8113,
+        "url": "https://www.artaigallery.com/collections/all-items/products/colours-of-the-wind-2",
+        "dateAdded": "N/A",
+        "title": "Colours of the Wind #2",
+        "artist": "Globix",
+        "artistProper": "Globix",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_1080x.jpg?v=1628524434",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_1080x.jpg?v=1628524434",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_1080x.jpg?v=1628524434"
+            }
+        ],
+        "category": "landscape",
+        "type": "ai"
+    },
+    {
+        "id": 8114,
+        "url": "https://www.artaigallery.com/collections/all-items/products/hearing-winds",
+        "dateAdded": "N/A",
+        "title": "Hearing Winds",
+        "artist": "Sophtboi",
+        "artistProper": "Sophtboi",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_1080x.jpg?v=1624551414",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_1080x.jpg?v=1624551414",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_1080x.jpg?v=1624551414"
+            }
+        ],
+        "category": "landscape",
+        "type": "ai"
+    },
+    {
+        "id": 8115,
+        "url": "https://www.artaigallery.com/collections/all-items/products/invaluable-dispense",
+        "dateAdded": "N/A",
+        "title": "Invaluable Dispense",
+        "artist": "Xiter",
+        "artistProper": "Xiter",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_1080x.jpg?v=1624282306",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_1080x.jpg?v=1624282306",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_1080x.jpg?v=1624282306"
+            }
+        ],
+        "category": "landscape",
+        "type": "ai"
+    },
+    {
+        "id": 32,
+        "url": "https://collection.gundgallery.org/Objects-1/info/32",
+        "dateAdded": "1987",
+        "title": "Irises",
+        "artist": "Robert Mapplethorpe",
+        "artistProper": "Mapplethorpe, Robert",
+        "dispDimensions": "50 x 44 in. (127 x 111.8 cm)",
+        "dispHeight": "50 in.",
+        "dispWidth": "44 in.",
+        "medium": "photogravure with silk collé",
+        "support": "",
+        "dispMedium": "photogravure with silk collé",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Mapplethorpe_Lilies.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Mapplethorpe_Lilies.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Mapplethorpe_Lilies.png"
+            }
+        ],
+        "category": "still-life",
+        "type": "human"
+    },
+    {
+        "id": 39,
+        "url": "https://collection.gundgallery.org/Objects-1/info/39",
+        "dateAdded": "ca. 1970",
+        "title": "Still Life",
+        "artist": "Catherine Murphy",
+        "artistProper": "Murphy, Catherine",
+        "dispDimensions": "10 1/2 x 14 1/4 in. (26.7 x 36.2 cm)",
+        "dispHeight": "10 1/2 in.",
+        "dispWidth": "14 1/4 in.",
+        "medium": "etching",
+        "support": "",
+        "dispMedium": "etching",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Murphy_StillLife.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Murphy_StillLife.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Murphy_StillLife.png"
+            }
+        ],
+        "category": "still-life",
+        "type": "human"
+    },
+    {
+        "id": 116,
+        "url": "https://collection.gundgallery.org/Objects-1/info/116",
+        "dateAdded": "2004",
+        "title": "Spring Flowers / Yellow Vase",
+        "artist": "Janet Fish",
+        "artistProper": "Fish, Janet",
+        "dispDimensions": "21 1/2 x 15 3/4 in. (54.6 x 40 cm)",
+        "dispHeight": "21 1/2 in.",
+        "dispWidth": "15 3/4 in.",
+        "medium": "Iris print",
+        "support": "",
+        "dispMedium": "Iris print",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Fish_SpringFlowers.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Fish_SpringFlowers.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Fish_SpringFlowers.png"
+            }
+        ],
+        "category": "still-life",
+        "type": "human"
+    },
+    {
+        "id": 276,
+        "url": "https://collection.gundgallery.org/Objects-1/info/276",
+        "dateAdded": "1981",
+        "title": "Untitled (Cyclamen)",
+        "artist": "Michael Mazur",
+        "artistProper": "Mazur, Michael",
+        "dispDimensions": "overall: 98 x 102 in. (248.92 x 259.08 cm)",
+        "dispHeight": "98 in.",
+        "dispWidth": "102 in.",
+        "medium": "pastel on paper",
+        "support": "",
+        "dispMedium": "pastel on paper",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/2020_04_09-Mazur_Combined.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/2020_04_09-Mazur_Combined.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/2020_04_09-Mazur_Combined.png"
+            }
+        ],
+        "category": "still-life",
+        "type": "human"
+    },
+    {
+        "id": 8121,
+        "url": "https://www.artaigallery.com/collections/all-items/products/still-life-flowers",
+        "dateAdded": "N/A",
+        "title": "Still Life Flowers",
+        "artist": "LATEBLOOMR",
+        "artistProper": "LATEBLOOMR",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_1080x.jpg?v=1624280095",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_1080x.jpg?v=1624280095",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_1080x.jpg?v=1624280095"
+            }
+        ],
+        "category": "still-life",
+        "type": "ai"
+    },
+    {
+        "id": 8122,
+        "url": "https://www.artaigallery.com/products/visiting-flowers",
+        "dateAdded": "N/A",
+        "title": "Visting Flowers",
+        "artist": "LATEBLOOMR",
+        "artistProper": "LATEBLOOMR",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_1080x.jpg?v=1624283225",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_1080x.jpg?v=1624283225",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_1080x.jpg?v=1624283225"
+            }
+        ],
+        "category": "still-life",
+        "type": "ai"
+    },
+    {
+        "id": 8123,
+        "url": "https://www.artaigallery.com/products/floweful",
+        "dateAdded": "N/A",
+        "title": "Floweful",
+        "artist": "LATEBLOOMR",
+        "artistProper": "LATEBLOOMR",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_1080x.jpg?v=16298929949",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_1080x.jpg?v=16298929949",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_1080x.jpg?v=16298929949"
+            }
+        ],
+        "category": "still-life",
+        "type": "ai"
+    },
+    {
+        "id": 8124,
+        "url": "https://www.artaigallery.com/products/ready-to-serve",
+        "dateAdded": "N/A",
+        "title": "Ready to Serve",
+        "artist": "LATEBLOOMR",
+        "artistProper": "LATEBLOOMR",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_1080x.jpg?v=1624283068",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_1080x.jpg?v=1624283068",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_1080x.jpg?v=1624283068"
+            }
+        ],
+        "category": "still-life",
+        "type": "ai"
+    },
+    {
+        "id": 8125,
+        "url": "https://www.artaigallery.com/collections/all-items/products/washed-fruits",
+        "dateAdded": "N/A",
+        "title": "Washed Fruits",
+        "artist": "LATEBLOOMR",
+        "artistProper": "LATEBLOOMR",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_1080x.jpg?v=1624280028",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_1080x.jpg?v=1624280028",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_1080x.jpg?v=1624280028"
+            }
+        ],
+        "category": "still-life",
+        "type": "ai"
+    },
+    {
+        "id": 28,
+        "url": "https://collection.gundgallery.org/Objects-1/info/28",
+        "dateAdded": "1971",
+        "title": "Ada II",
+        "artist": "Alex Katz",
+        "artistProper": "Katz, Alex",
+        "dispDimensions": "28 x 24 in. (71.1 x 61 cm)",
+        "dispHeight": "28 in.",
+        "dispWidth": "24 in.",
+        "medium": "pencil",
+        "support": "paper",
+        "dispMedium": "pencil on paper",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/Katz_AdaII.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Katz_AdaII.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/Katz_AdaII.png"
+            }
+        ],
+        "category": "portrait",
+        "type": "human"
+    },
+    {
+        "id": 240,
+        "url": "https://collection.gundgallery.org/Objects-1/info/240",
+        "dateAdded": "2005",
+        "title": "E.L Doctorow",
+        "artist": "Eric Fischl",
+        "artistProper": "Fischl, Eric",
+        "dispDimensions": "72 x 50 in. (183 x 127 cm)",
+        "dispHeight": "72 in.",
+        "dispWidth": "50 in.",
+        "medium": "oil",
+        "support": "linen",
+        "dispMedium": "oil on linen",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/2018_03_01-Fischl.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/2018_03_01-Fischl.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/2018_03_01-Fischl.png"
+            }
+        ],
+        "category": "portrait",
+        "type": "human"
+    },
+    {
+        "id": 253,
+        "url": "https://collection.gundgallery.org/Objects-1/info/253",
+        "dateAdded": "2008",
+        "title": "Shopping Bag",
+        "artist": "Hendrik Kerstens",
+        "artistProper": "Kerstens, Hendrik",
+        "dispDimensions": "image: 40 x 30 in. (101.6 x 76.2 cm)",
+        "dispHeight": "40 in.",
+        "dispWidth": "30 in.",
+        "medium": "pigment print",
+        "support": "",
+        "dispMedium": "pigment print",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/2019_06_01-Kerstens-framed.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/2019_06_01-Kerstens-framed.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/2019_06_01-Kerstens-framed.png"
+            }
+        ],
+        "category": "portrait",
+        "type": "human"
+    },
+    {
+        "id": 320,
+        "url": "https://collection.gundgallery.org/Objects-1/info/320",
+        "dateAdded": "1990, printed later",
+        "title": "A Girl with a Knife Nosepin, Brooklyn, NY",
+        "artist": "Dawoud Bey",
+        "artistProper": "Bey, Dawoud",
+        "dispDimensions": "40 x 30 in. (101.6 x 76.2 cm)",
+        "dispHeight": "40 in.",
+        "dispWidth": "30 in.",
+        "medium": "archival inkjet photograph",
+        "support": "",
+        "dispMedium": "archival inkjet photograph",
+        "images": [
+            {
+                "imageURL": "https://collection.gundgallery.org/Media/images/2021_05_01-Bey-Image.jpg",
+                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/2021_05_01-Bey-Image.png",
+                "previewURL": "https://collection.gundgallery.org/Media/Previews/2021_05_01-Bey-Image.png"
+            }
+        ],
+        "category": "portrait",
+        "type": "human"
+    },
+    {
+        "id": 8126,
+        "url": "https://www.artaigallery.com/collections/all-items/products/the-overthinker",
+        "dateAdded": "N/A",
+        "title": "The Overthinker",
+        "artist": "Poptrait",
+        "artistProper": "Poptrait",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_1080x.jpg?v=1629892774",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_1080x.jpg?v=1629892774",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_1080x.jpg?v=1629892774"
+            }
+        ],
+        "category": "portrait",
+        "type": "ai"
+    },
+    {
+        "id": 8127,
+        "url": "https://www.artaigallery.com/collections/all-items/products/hugging-smiths",
+        "dateAdded": "N/A",
+        "title": "Hugging Smiths",
+        "artist": "Gloombot",
+        "artistProper": "Gloombot",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_1080x.jpg?v=1624551107",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_1080x.jpg?v=1624551107",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_1080x.jpg?v=1624551107"
+            }
+        ],
+        "category": "portrait",
+        "type": "ai"
+    },
+    {
+        "id": 8128,
+        "url": "https://www.artaigallery.com/collections/all-items/products/staring-red-riding-hood",
+        "dateAdded": "N/A",
+        "title": "Staring Red Riding Hood",
+        "artist": "Peepster",
+        "artistProper": "Peepster",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_1080x.jpg?v=1624551157",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_1080x.jpg?v=1624551157",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_1080x.jpg?v=1624551157"
+            }
+        ],
+        "category": "portrait",
+        "type": "ai"
+    },
+    {
+        "id": 8129,
+        "url": "https://www.artaigallery.com/collections/all-items/products/aphrodite",
+        "dateAdded": "N/A",
+        "title": "Aphrodite",
+        "artist": "Peepster",
+        "artistProper": "Peerster",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_1080x.jpg?v=1624551166",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_1080x.jpg?v=1624551166",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_1080x.jpg?v=1624551166"
+            }
+        ],
+        "category": "portrait",
+        "type": "ai"
+    },
+    {
+        "id": 8130,
+        "url": "https://www.artaigallery.com/collections/all-items/products/jannis-johans",
+        "dateAdded": "N/A",
+        "title": "Jannis Johans",
+        "artist": "Poptrait",
+        "artistProper": "Poptrait",
+        "images": [
+            {
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Jannis_Johans_img_0_6719fe54-6631-4638-8bdc-6791a91143f3_1080x.jpg?v=1624551489",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Jannis_Johans_img_0_6719fe54-6631-4638-8bdc-6791a91143f3_1080x.jpg?v=1624551489",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Jannis_Johans_img_0_6719fe54-6631-4638-8bdc-6791a91143f3_1080x.jpg?v=1624551489"
+            }
+        ],
+        "category": "portrait",
+        "type": "ai"
+    }
 ]

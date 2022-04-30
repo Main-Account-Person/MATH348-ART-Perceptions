@@ -191,7 +191,7 @@
         border-radius: 18px;
         border: 3px groove #3e01b4;
         position: sticky;
-        top: 1.5rem;
+        top: 1rem;
         z-index: 2;
         background-color: rgba(255, 255, 255, 0.9);
     }
