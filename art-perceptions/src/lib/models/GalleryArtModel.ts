@@ -12,6 +12,8 @@ export interface GalleryArt {
     support: string;
     dispMedium: string;
     images: Array<Images>;
+    category: string;
+    type: string;
 }
 
 interface Images {
