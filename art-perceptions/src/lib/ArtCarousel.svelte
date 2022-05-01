@@ -3,6 +3,7 @@
     import { fly } from "svelte/transition";
     import { flip } from "svelte/animate";
     import type { GalleryArt } from "./models/GalleryArtModel";
+    import { ArtCardType } from "./models/ArtCardModel";
     import { galleryResults } from "../stores";
     import artworkJSON from "../routes/api/artwork.json";
     // import * as artworkJSON from "../routes/api/artwork.json"
@@ -48,21 +49,27 @@
     {:then}
         <div class="chevron left" on:click={decrementIndex}><div /></div>
         {#each $galleryResults.slice(0, 3) as imageObject, index (imageObject)}
-            <div animate:flip={{ duration: 200 }} class="animation-wrap">
-                <div
-                    in:fly={{
-                        x: index === 0 ? -200 : 200,
-                        y: -50,
-                        duration: 200,
-                    }}
-                    class="transition-wrap"
-                >
-                    <ArtCard
-                        {index}
-                        isPrimary={index == 1 ? true : false}
-                        galleryObject={imageObject}
-                    />
-                </div>
+            <div
+                animate:flip={{ duration: 200 }}
+                in:fly={{
+                    x: index === 0 ? -200 : 200,
+                    y: -50,
+                    duration: 200,
+                }}
+                out:fly={{
+                    x: 200,
+                    y: -50,
+                    duration: 200,
+                }}
+                class="animation-wrap"
+            >
+                <ArtCard
+                    {index}
+                    type={index == 1
+                        ? ArtCardType.primary
+                        : ArtCardType.background}
+                    galleryObject={imageObject}
+                />
             </div>
         {/each}
         <div class="chevron right" on:click={incrementIndex}><div /></div>
@@ -75,13 +82,13 @@
         display: flex;
         align-items: center;
         align-content: center;
+        column-gap: 1rem;
     }
 
     .chevron {
         background: #3e01b4;
         width: 3.5rem;
         height: 3.5rem;
-        margin: 0.8rem;
         border-radius: 50%;
         transition: 0.2s ease;
     }

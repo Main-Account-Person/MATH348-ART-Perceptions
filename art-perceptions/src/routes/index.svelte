@@ -5,14 +5,18 @@
     import NavigationBar from "$lib/NavigationBar.svelte";
     import ArtCard from "../lib/ArtCard.svelte";
     import type { GalleryArt } from "../lib/models/GalleryArtModel";
+    import { ArtCardType } from "../lib/models/ArtCardModel";
     import { galleryResults } from "../stores";
-    import { text } from "svelte/internal";
 
     var searchText: string;
     var searchResults: GalleryArt[];
 
     function filterArt(art: GalleryArt) {
-        if (art.title.toLowerCase().includes(searchText.toLowerCase())) {
+        if (
+            art.title.toLowerCase().includes(searchText.toLowerCase()) ||
+            art.artist.toLowerCase().includes(searchText.toLowerCase()) ||
+            art.category.toLowerCase().includes(searchText.toLowerCase())
+        ) {
             return art;
         }
     }
@@ -53,19 +57,20 @@
 
             <div class="search-container">
                 <div class="gund-gallery">
-                    <h1>At the Gund Gallery?</h1>
+                    <h1>Looking for something?</h1>
                     <h4>
-                        Search for a specific piece of art and add your
-                        perception to the database!
+                        Search for a specific work of art, artist, or category.
                     </h4>
                 </div>
-                <input
-                    type="text"
-                    placeholder="Artwork Title"
-                    bind:value={searchText}
-                    on:input={searchArt}
-                    class="searchbar"
-                />
+                <label class="searchbar">
+                    <input
+                        type="text"
+                        placeholder="Title, Artist, Category"
+                        bind:value={searchText}
+                        on:input={searchArt}
+                        class="searchbar-input"
+                    />
+                </label>
                 <div class="search-results">
                     {#if searchResults}
                         {#if searchResults.length === 0}
@@ -89,7 +94,7 @@
                                 >
                                     <ArtCard
                                         index={1}
-                                        isPrimary={false}
+                                        type={ArtCardType.search}
                                         galleryObject={art}
                                     />
                                 </div>
@@ -160,7 +165,6 @@
         display: flex;
         flex-direction: column;
         max-width: 60%;
-        align-self: auto;
     }
 
     .gund-gallery h1 {
@@ -185,15 +189,40 @@
     }
 
     .searchbar {
-        min-width: 55%;
-        margin-top: 1rem;
-        padding: 1rem;
-        border-radius: 18px;
-        border: 3px groove #3e01b4;
+        position: relative;
+        width: 100%;
+        max-width: 60%;
+        margin-top: 2rem;
+        display: flex;
         position: sticky;
         top: 1rem;
-        z-index: 2;
+        z-index: 3;
+    }
+
+    .searchbar:before {
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: 0;
+        bottom: 0;
+        width: 2rem;
+        background: url(/images/search-icon.svg) center / contain no-repeat;
+    }
+
+    .searchbar-input {
+        /* min-width: 55%; */
+        /* width: 80%; */
+        /* margin-top: 1rem; */
+        flex: 1;
+        padding: 1rem;
+        border-radius: 18px;
+        border: 3px solid #3e01b4;
         background-color: rgba(255, 255, 255, 0.9);
+        outline: none;
+    }
+
+    .searchbar-input:focus {
+        border: 3px solid #f29e5a;
     }
 
     .search-results {

@@ -21,7 +21,7 @@
         justify-content: space-between;
         position: sticky;
         top: 0px;
-        z-index: 10;
+        z-index: 2;
     }
 
     /* .NavBar * {
