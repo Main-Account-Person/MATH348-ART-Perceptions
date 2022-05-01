@@ -56,11 +56,6 @@
                     y: -50,
                     duration: 200,
                 }}
-                out:fly={{
-                    x: 200,
-                    y: -50,
-                    duration: 200,
-                }}
                 class="animation-wrap"
             >
                 <ArtCard
