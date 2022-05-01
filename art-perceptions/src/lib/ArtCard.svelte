@@ -1,14 +1,19 @@
 <script lang="ts">
     import type { GalleryArt } from "./models/GalleryArtModel";
+    import { ArtCardType } from "./models/ArtCardModel";
     export let index: number;
-    export let isPrimary: boolean;
+    export let type: ArtCardType;
     export let galleryObject: GalleryArt;
 </script>
 
 <div
-    class="art-card {isPrimary === false ? 'bg' : 'primary'} {index === 0
-        ? 'leading'
-        : ''} {index === 2 ? 'trailing' : ''}"
+    class="art-card {type === 'background'
+        ? 'bg'
+        : type === 'primary'
+        ? 'primary'
+        : 'search'} {index === 0 ? 'leading' : ''} {index === 2
+        ? 'trailing'
+        : ''}"
 >
     <img
         src={galleryObject.images[0].previewURL}
@@ -22,25 +27,43 @@
         </span>
 
         <span class="links">
-            <a href={galleryObject.url} target="_blank">Gund Gallery</a>
+            <a href={galleryObject.url} target="_blank">Source</a>
             <a href="/survey/{galleryObject.id}">Survey</a>
         </span>
     </div>
 </div>
 
 <style>
-    .art-card {
-        will-change: transform, height, opacity;
-        width: 18rem;
-        height: 25rem;
-        background-color: white;
-        border-radius: 25px;
-        margin: 0;
-        transition: 0.2s ease;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
+    @media only screen and (min-width: 1280px) {
+        .art-card {
+            will-change: transform, height, opacity;
+            width: 18rem;
+            height: 25rem;
+            background-color: white;
+            border-radius: 25px;
+            margin: 0;
+            transition: 0.2s ease;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+        }
+    }
+
+    @media only screen and (max-width: 1280px) {
+        .art-card {
+            will-change: transform, height, opacity;
+            width: 15rem;
+            height: 22rem;
+            background-color: white;
+            border-radius: 25px;
+            margin: 0;
+            transition: 0.2s ease;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+        }
     }
 
     .art-card img {
@@ -80,7 +103,7 @@
     }
 
     .art-card .info a {
-        width: 35%;
+        /* width: 35%; */
         background-color: #f4d3b8;
         color: #3e01b4;
         border: none;
@@ -97,10 +120,19 @@
         cursor: pointer;
     }
 
-    .art-card.bg {
+    .art-card.bg,
+    .search {
         transform: scale(0.9);
         filter: brightness(95%);
         box-shadow: 0px 2px 5px lightgray;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .art-card.bg {
+            display: none;
+            /* margin: -10rem; */
+            /* z-index: 0; */
+        }
     }
 
     .art-card.bg:hover {
