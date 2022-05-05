@@ -1,9 +1,14 @@
 <script lang="ts" context="module">
-    import artworkJSON from "../api/artwork.json";
+    import artworkJSON from "../../api/artwork.json";
     export async function load({ params }) {
         const { id } = params;
         const galleryResults = artworkJSON;
-        return { props: { id: id, galleryResults: galleryResults } };
+        return {
+            props: {
+                id: id,
+                galleryResults: galleryResults,
+            },
+        };
     }
 </script>
 
@@ -13,7 +18,7 @@
     import type { GalleryArt } from "../../lib/models/GalleryArtModel";
     import NavigationBar from "$lib/NavigationBar.svelte";
 
-    export let id: Number;
+    export let id: number;
     export let galleryResults: GalleryArt[];
     let artObject: GalleryArt = galleryResults.filter(function (art) {
         return art.id == id;
@@ -133,9 +138,9 @@
     }
 </script>
 
-<main>
+<body class="content">
     <NavigationBar />
-    <body class="content">
+    <body class="survey-content">
         <div class="ArtInfoCard">
             <img src={artObject.images[0].imageURL} alt="Artwork" />
             <h1>{artObject.title}</h1>
@@ -241,10 +246,12 @@
         <!-- </div> -->
         <!-- {/if} -->
     </body>
-</main>
+</body>
 
 <style>
     :root {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
         --range-slider: rgb(248 249 255);
         /* --range-handle-inactive: #3e01b4; */
         --range-handle: #3e01b4;
@@ -252,14 +259,18 @@
         /* --range-float: #3e01b4; */
     }
 
-    main {
-        background-image: url("../../../../images/background.jpeg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .content {
+        /* background-image: url("../../../../images/background.jpeg"); */
+        /* background-position: center; */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+
+        background: linear-gradient(#f29e5a, purple, #3e01b4 120vh, #340198);
+        margin: 0;
+        padding: 0;
     }
 
-    .content {
+    .survey-content {
         /* width: 100%; */
         height: calc(100vh - 7rem);
         margin: 0;

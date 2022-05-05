@@ -22,30 +22,7 @@
         "category": "abstract",
         "type": "human"
     },
-    {
-        "id": 118,
-        "url": "https://collection.gundgallery.org/Objects-1/info/118",
-        "dateAdded": "1996",
-        "title": "West Wind",
-        "artist": "Helen Frankenthaler",
-        "artistProper": "Frankenthaler, Helen",
-        "dispDimensions": "41 1/4 x 35 1/2 in. (104.8 x 90.2 cm)",
-        "dispHeight": "41 1/4 in.",
-        "dispWidth": "35 1/2 in.",
-        "medium": "silkscreen in 37 colors",
-        "support": "",
-        "dispMedium": "silkscreen in 37 colors",
-        "images": [
-            {
-                "imageURL": "https://collection.gundgallery.org/Media/images/Frankenthaler_WestWind.jpg",
-                "thumbnailURL": "https://collection.gundgallery.org/Media/Thumbnails/Frankenthaler_WestWind.png",
-                "previewURL": "https://collection.gundgallery.org/Media/Previews/Frankenthaler_WestWind.png"
-            }
-        ],
-        "category": "abstract",
-        "type": "human"
-    },
-    {
+        {
         "id": 123,
         "url": "https://collection.gundgallery.org/Objects-1/info/123",
         "dateAdded": "1975",
@@ -146,9 +123,9 @@
         "artistProper": "Ollynol",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_1080x.jpg?v=1624886343%201080w",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_1080x.jpg?v=1624886343%201080w",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_300x.jpg?v=1624886343%201080w"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_1080x.jpg?%201080w",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_1080x.jpg?%201080w",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Mixology_Age_img_0_300x.jpg?%201080w"
             }
         ],
         "category": "abstract",
@@ -163,9 +140,9 @@
         "artistProper": "Abstrix",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_1080x.jpg?v=1624283354",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_1080x.jpg?v=1624283354",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_300x.jpg?v=1624283354"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed23390_300x.jpg?"
             }
         ],
         "category": "abstract",
@@ -180,9 +157,9 @@
         "artistProper": "Minicrisp",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_1080x.jpg?v=1624283382",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_1080x.jpg?v=1624283382",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_300x.jpg?v=1624283382"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed21061_300x.jpg?"
             }
         ],
         "category": "abstract",
@@ -197,9 +174,9 @@
         "artistProper": "T34MW@RK",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_1080x.jpg?v=1624283264",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_1080x.jpg?v=1624283264",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_300x.jpg?v=1624283264"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38172_300x.jpg?"
             }
         ],
         "category": "abstract",
@@ -214,9 +191,9 @@
         "artistProper": "Abstrix",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_1080x.jpg?v=1624283262",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_1080x.jpg?v=1624283262",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_300x.jpg?v=1624283262"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/seed38225_300x.jpg?"
             }
         ],
         "category": "abstract",
@@ -346,9 +323,9 @@
         "artistProper": "Sophtboi",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_1080x.jpg?v=1624283153",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_1080x.jpg?v=1624283153",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_300x.jpg?v=1624283153"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/001717_ba3f693a-5be2-425b-8992-d16d2f6ca937_300x.jpg?"
             }
         ],
         "category": "figurative",
@@ -363,9 +340,9 @@
         "artistProper": "Sophtboi",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_1080x.jpg?v=1624283132",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_1080x.jpg?v=1624283132",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_300x.jpg?v=1624283132"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/007295_300x.jpg?"
             }
         ],
         "category": "figurative",
@@ -380,9 +357,9 @@
         "artistProper": "Gloombot",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_1080x.jpg?v=1624283127",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_1080x.jpg?v=1624283127",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_300x.jpg?v=1624283127"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/008301_300x.jpg?"
             }
         ],
         "category": "figurative",
@@ -397,9 +374,9 @@
         "artistProper": "Xpressor",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_1080x.jpg?v=1624550505",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_1080x.jpg?v=1624550505",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_300x.jpg?v=1624550505"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Further_Reduction_img_0_300x.jpg?"
             }
         ],
         "category": "figurative",
@@ -414,9 +391,9 @@
         "artistProper": "Gloombot",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_1080x.jpg?v=1624281725",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_1080x.jpg?v=1624281725",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_300x.jpg?v=1624281725"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/016088_300x.jpg?"
             }
         ],
         "category": "figurative",
@@ -500,9 +477,9 @@
         "artistProper": "Globix",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_1080x.jpg?v=1628525067",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_1080x.jpg?v=1628525067",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_300x.jpg?v=1628525067"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Up_and_Down_img_0_300x.jpg?"
             }
         ],
         "category": "landscape",
@@ -517,9 +494,9 @@
         "artistProper": "Globix",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_1080x.jpg?v=1628524867",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_1080x.jpg?v=1628524867",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_300.jpg?v=1628524867"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Great_Lake_img_0_300x.jpg?"
             }
         ],
         "category": "landscape",
@@ -534,9 +511,9 @@
         "artistProper": "Globix",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_1080x.jpg?v=1628524434",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_1080x.jpg?v=1628524434",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_300x.jpg?v=1628524434"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Colours_of_the_Wind_2_img_0_300x.jpg?"
             }
         ],
         "category": "landscape",
@@ -551,9 +528,9 @@
         "artistProper": "Sophtboi",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_1080x.jpg?v=1624551414",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_1080x.jpg?v=1624551414",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_300x.jpg?v=1624551414"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hearing_Winds_img_0_300x.jpg?"
             }
         ],
         "category": "landscape",
@@ -568,9 +545,9 @@
         "artistProper": "Xiter",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_1080x.jpg?v=1624282306",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_1080x.jpg?v=1624282306",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_300x.jpg?v=1624282306"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/002879_2bf90a03-d39e-4e8c-b040-490e7bed94fb_300x.jpg?"
             }
         ],
         "category": "landscape",
@@ -677,9 +654,9 @@
         "artistProper": "LATEBLOOMR",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_1080x.jpg?v=1624280095",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_1080x.jpg?v=1624280095",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_300x.jpg?v=1624280095"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/000045_300x.jpg?"
             }
         ],
         "category": "still-life",
@@ -694,9 +671,9 @@
         "artistProper": "LATEBLOOMR",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_1080x.jpg?v=1624283225",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_1080x.jpg?v=1624283225",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_300x.jpg?v=1624283225"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003166_7ee39951-28a7-4fa3-9468-30b65fa4d6d6_300x.jpg?"
             }
         ],
         "category": "still-life",
@@ -711,9 +688,9 @@
         "artistProper": "LATEBLOOMR",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_1080x.jpg?v=16298929949",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_1080x.jpg?v=16298929949",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_300x.jpg?v=16298929949"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Floweful__img_0_300x.jpg?"
             }
         ],
         "category": "still-life",
@@ -728,9 +705,9 @@
         "artistProper": "LATEBLOOMR",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_1080x.jpg?v=1624283068",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_1080x.jpg?v=1624283068",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_300x.jpg?v=1624283068"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/005595_300x.jpg?"
             }
         ],
         "category": "still-life",
@@ -745,9 +722,9 @@
         "artistProper": "LATEBLOOMR",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_1080x.jpg?v=1624280028",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_1080x.jpg?v=1624280028",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_300x.jpg?v=1624280028"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/003419_300x.jpg?"
             }
         ],
         "category": "still-life",
@@ -854,9 +831,9 @@
         "artistProper": "Poptrait",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_1080x.jpg?v=1629892774",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_1080x.jpg?v=1629892774",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_300x.jpg?v=1629892774"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/The_Overthinker__img_0_300x.jpg?"
             }
         ],
         "category": "portrait",
@@ -871,9 +848,9 @@
         "artistProper": "Gloombot",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_1080x.jpg?v=1624551107",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_1080x.jpg?v=1624551107",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_300x.jpg?v=1624551107"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Hugging_Smiths_img_0_300x.jpg?"
             }
         ],
         "category": "portrait",
@@ -888,9 +865,9 @@
         "artistProper": "Peepster",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_1080x.jpg?v=1624551157",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_1080x.jpg?v=1624551157",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_300x.jpg?v=1624551157"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Staring_Red_Riding_Hood_img_0_300x.jpg?"
             }
         ],
         "category": "portrait",
@@ -905,9 +882,9 @@
         "artistProper": "Peerster",
         "images": [
             {
-                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_1080x.jpg?v=1624551166",
-                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_1080x.jpg?v=1624551166",
-                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_300x.jpg?v=1624551166"
+                "imageURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_1080x.jpg?",
+                "thumbnailURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_1080x.jpg?",
+                "previewURL": "https://cdn.shopify.com/s/files/1/0112/8805/1808/products/Aphrodite_img_0_300x.jpg?"
             }
         ],
         "category": "portrait",
