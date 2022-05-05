@@ -28,7 +28,7 @@
 
         <span class="links">
             <a href={galleryObject.url} target="_blank">Source</a>
-            <a href="/survey/{galleryObject.id}">Survey</a>
+            <a href="/survey/s/{galleryObject.id}">Survey</a>
         </span>
     </div>
 </div>
