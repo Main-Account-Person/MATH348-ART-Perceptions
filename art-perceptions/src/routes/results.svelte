@@ -7,7 +7,6 @@
         "https://math-348-art-perceptions.vercel.app/api/survey"
     );
     // const json = response.json();
-    // console.log(json);
 
     let data = [
         { question: "Q1", score: 5 },
@@ -19,6 +18,9 @@
         { question: "Q7", score: 2.4 },
         { question: "Q8", score: 8.4 },
     ];
+
+  console.log(data);
+
 </script>
 
 <body>
