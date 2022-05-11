@@ -27,6 +27,9 @@
         { question: "Q7", score: 2.4 },
         { question: "Q8", score: 8.4 },
     ];
+
+  console.log(obj);
+
 </script>
 
 <body>
@@ -40,7 +43,7 @@
             and human-generated art pieces.
         </p>
         <div class="chart_1">
-            <Barchart points={data} />
+            <Barchart points={obj} />
         </div>
     </div>
 </body>
