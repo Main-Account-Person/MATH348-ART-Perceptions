@@ -3,6 +3,7 @@ import { supabase } from "./supabase";
 
 export const galleryResults = writable([]);
 export const surveyDatabase = writable([]);
+export const surveyResults = writable([]);
 
 export async function loadSurveyDB() {
     const { data, error } = await supabase

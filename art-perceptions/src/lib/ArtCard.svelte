@@ -135,7 +135,8 @@
         }
     }
 
-    .art-card.bg:hover {
+    .art-card.bg:hover,
+    .search:hover {
         transform: scale(0.95);
     }
 
