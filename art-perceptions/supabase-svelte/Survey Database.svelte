@@ -13,7 +13,7 @@
       const user = supabase.auth.user()
 
       let { data, error, status } = await supabase
-        .from('profiles')
+        .from('Survey Database')
         .select(`username, website, avatar_url`)
         .eq('id', user.id)
         .single()
@@ -45,7 +45,7 @@
         updated_at: new Date(),
       }
 
-      let { error } = await supabase.from('profiles').upsert(updates, {
+      let { error } = await supabase.from('Survey Database').upsert(updates, {
         returning: 'minimal', // Don't return the value after inserting
       })
 
