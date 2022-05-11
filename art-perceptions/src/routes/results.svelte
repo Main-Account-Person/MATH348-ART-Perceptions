@@ -28,7 +28,7 @@
         { question: "Q8", score: 8.4 },
     ];
 
-  console.log(obj);
+  console.log(surveyResults);
 
 </script>
 
@@ -43,7 +43,7 @@
             and human-generated art pieces.
         </p>
         <div class="chart_1">
-            <Barchart points={obj} />
+            <Barchart points={surveyResults} />
         </div>
     </div>
 </body>
