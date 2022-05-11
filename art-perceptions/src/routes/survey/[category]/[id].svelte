@@ -159,6 +159,11 @@
                 <div transition:fade class="status-text">
                     <p>Your response has successfully been recorded.</p>
                     <p>Thank you!</p>
+                    <a
+                        href="/results"
+                        style="padding: 1rem; text-decoration: none;"
+                        >view the results</a
+                    >
                 </div>
             {/if}
             <header>
