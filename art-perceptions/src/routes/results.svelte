@@ -5,6 +5,17 @@
     let responses_no = 10;
     let tellapart_no = 5;
 
+    let data = [
+        { question: "Q1", score: 0 },
+        { question: "Q2", score: 0 },
+        { question: "Q3", score: 0 },
+        { question: "Q4", score: 0 },
+        { question: "Q5", score: 0 },
+        { question: "Q6", score: 0 },
+        { question: "Q7", score: 0 },
+        { question: "Q8", score: 0 },
+    ];
+
     let surveyResults;
     onMount(async () => {
         const url =
@@ -14,22 +25,17 @@
         surveyResults = await fetch(url).then((res) =>
             res.json().then((json) => json["data"])
         );
-        console.log(surveyResults);
+        for (var response of surveyResults) {
+            const responses = response["responses"];
+            for (var i = 0; i < 8; i++) {
+                data[i]["score"] += responses["q" + (i + 1)];
+            }
+        }
+
+        for (var i of data) {
+            i["score"] /= surveyResults.length;
+        }
     });
-
-    let data = [
-        { question: "Q1", score: 5 },
-        { question: "Q2", score: 4.6 },
-        { question: "Q3", score: 4.4 },
-        { question: "Q4", score: 4 },
-        { question: "Q5", score: 3 },
-        { question: "Q6", score: 2.4 },
-        { question: "Q7", score: 2.4 },
-        { question: "Q8", score: 8.4 },
-    ];
-
-  console.log(surveyResults);
-
 </script>
 
 <body>
@@ -43,7 +49,7 @@
             and human-generated art pieces.
         </p>
         <div class="chart_1">
-            <Barchart points={surveyResults} />
+            <Barchart title="Average Results" points={data} />
         </div>
     </div>
 </body>
