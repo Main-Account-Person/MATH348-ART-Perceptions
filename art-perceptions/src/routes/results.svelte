@@ -1,13 +1,21 @@
 <script lang="ts">
     import NavigationBar from "$lib/NavigationBar.svelte";
     import Barchart from "$lib/Barchart.svelte";
+    import { onMount } from "svelte";
     let responses_no = 10;
     let tellapart_no = 5;
-    const response = fetch(
-        "https://math-348-art-perceptions.vercel.app/api/survey"
-    );
-    // const json = response.json();
-    // console.log(json);
+
+    let surveyResults;
+    onMount(async () => {
+        const url =
+            process.env.NODE_ENV == "development"
+                ? "http://localhost:3000/api/survey"
+                : "https://math-348-art-perceptions.vercel.app/api/survey";
+        surveyResults = await fetch(url).then((res) =>
+            res.json().then((json) => json["data"])
+        );
+        console.log(surveyResults);
+    });
 
     let data = [
         { question: "Q1", score: 5 },
@@ -56,10 +64,11 @@
         justify-content: flex-start;
         align-content: center;
         align-items: center;
-        background-position: left;
-        background-image: url("../../../images/background.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        /* background-position: left; */
+        /* background-image: url("../../../images/background.jpeg"); */
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        background: linear-gradient(#f29e5a, purple, #3e01b4 120vh, #340198);
     }
 
     body {
