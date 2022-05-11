@@ -1,5 +1,6 @@
 <script lang="ts">
     import { scaleLinear } from "d3-scale";
+    export let title: string;
     export let points: { question: string; score: number }[];
 
     const xTicks = ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8"];
@@ -26,7 +27,7 @@
     console.log(points);
 </script>
 
-<h2>TEST Barchart</h2>
+<h2>{title}</h2>
 
 <div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
     <svg>
