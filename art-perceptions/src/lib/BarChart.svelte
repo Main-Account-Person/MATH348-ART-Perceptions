@@ -24,10 +24,10 @@
 
     $: innerWidth = width - (padding.left + padding.right);
     $: barWidth = innerWidth / xTicks.length;
-    console.log(points);
+    // console.log(points);
 </script>
 
-<h2>{title}</h2>
+<h3>{title}</h3>
 
 <div class="chart" bind:clientWidth={width} bind:clientHeight={height}>
     <svg>
@@ -100,7 +100,7 @@
     }
 
     .tick text {
-        fill: #cc3;
+        fill: black;
         text-anchor: start;
     }
 
@@ -113,8 +113,8 @@
     }
 
     .bars rect {
-        fill: #a12;
+        fill: #f29e5a;
         stroke: none;
-        opacity: 0.65;
+        opacity: 0.75;
     }
 </style>

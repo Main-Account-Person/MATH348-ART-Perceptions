@@ -62,7 +62,7 @@
     .category-card {
         width: 100%;
         height: 100%;
-        background: white;
+        background: rgba(255, 255, 255, 0.9);
         border-radius: 20px;
         color: black;
         display: flex;
@@ -94,6 +94,7 @@
         box-shadow: 0px 2px 5px #3e01b4;
         transition: 0.2s ease;
         text-decoration: none;
+        text-align: center;
     }
 
     .category-card a:hover {
