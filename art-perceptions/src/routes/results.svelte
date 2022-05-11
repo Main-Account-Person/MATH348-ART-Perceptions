@@ -36,7 +36,6 @@
             i["score"] /= surveyResults.length;
         }
     });
-
 </script>
 
 <body>
