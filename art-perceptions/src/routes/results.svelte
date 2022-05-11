@@ -6,7 +6,8 @@
     const response = fetch(
         "https://math-348-art-perceptions.vercel.app/api/survey"
     );
-    const json = response.json();
+    //const json = response.json();
+    var obj = JSON.parse(response)
 
     let data = [
         { question: "Q1", score: 5 },
@@ -19,7 +20,7 @@
         { question: "Q8", score: 8.4 },
     ];
 
-  console.log(json);
+  console.log(obj);
 
 </script>
 
@@ -34,7 +35,7 @@
             and human-generated art pieces.
         </p>
         <div class="chart_1">
-            <Barchart points={json} />
+            <Barchart points={obj} />
         </div>
     </div>
 </body>
