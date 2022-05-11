@@ -1,6 +1,4 @@
 import { createClient } from '@supabase/supabase-js'
-SVELTE_APP_SUPABASE_URL= https://jegywegiituhkkxiecdb.supabase.co
-SVELTE_APP_SUPABASE_ANON_KEY= eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImplZ3l3ZWdpaXR1aGtreGllY2RiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDkzNDA3MjAsImV4cCI6MTk2NDkxNjcyMH0.85QCtMYtmPc3SpuMO9DCC_2cI7LmZQYuBH9VBWKLTk4
 
 const supabaseUrl = __api.env.SVELTE_APP_SUPABASE_URL
 const supabaseAnonKey = __api.env.SVELTE_APP_SUPABASE_ANON_KEY
